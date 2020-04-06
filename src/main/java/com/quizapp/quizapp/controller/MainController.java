@@ -15,11 +15,28 @@ public class MainController {
     @Autowired
     private UserRepository userRepository;
 
+    private boolean isLoggedIn() {
+        return false;
+    }
+
     @GetMapping("/")
-    @ResponseBody
-    public String test() {
-        final List<User> userList = userRepository.findAll();
-        return userList.size() + "";
+    public String Main() {
+        if (isLoggedIn()) {
+            return "redirect:/index";
+        }
+        return "login_register";
+    }
+
+    @GetMapping(value="/login_register")
+    public String Login_Register()
+    {
+        return "login_register";
+    }
+
+    @GetMapping(value="/index")
+    public String Index()
+    {
+        return "index";
     }
 
 }
