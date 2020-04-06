@@ -1,13 +1,67 @@
 <!DOCTYPE html>
-<html lang="en" layout:decorator="layouts/main">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
 <title> Quiz App</title>
-    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
 </head>
 <body>
-    <h1>INDEX PAGE</h1>
+<div>
+    <div class="card left">
+        <div class="container">
+            <form action="/quiz" method="POST">
+                <h3>Start a new quiz</h3>
+                <p2> Select the difficulty:</p2>
+                <select name="difficulty">
+                    <option value="all">all</option>
+                    <option value="easy">easy</option>
+                    <option value="medium">medium</option>
+                    <option value="hard">hard</option>
+                </select><br><br>
+                <p2> Select the number of questions: </p2>
+                <select name="questionCount">
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                </select><br>
+
+                <br><br>
+                <p><button type="submit2">START</button></p>
+
+            </form>
+        </div>
+    </div>
+
+
+    <div class="card right">
+        <div class="container">
+
+            <h3>Profile</h3>
+            <p th:text="'Username: ' + ${username}">Username: </p> <p1> </p1><br><br>
+            <p>Solved quiz: </p> <p1>  </p1> <br><br>
+            <p>Average score percent:</p> <p1> %</p1><br><br>
+            <p>RANK:</p> <p1></p1><br><br>
+            <li>
+                <form method="GET" action="">
+                    <button type="submit3">Statistics</button>
+                </form>
+            </li>
+            <li>
+            <form action="/logout" method="POST">
+                    <input type="submit" value="Logout"/>
+            </form>
+            </li>
+            <li>
+                <form method=POST onsubmit="return confirm('Delete your account?')"
+                      action="">
+                    <button type="submit">Delete account</button>
+                </form>
+            </li>
+        </div>
+    </div>
+</div>
+
 </body>    
 </html>

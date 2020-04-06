@@ -7,6 +7,7 @@ import com.quizapp.quizapp.security.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -31,6 +32,10 @@ public class MainController {
     @GetMapping(value="/login")
     public String Login_Register()
     {
+        final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        if (userDto != null) {
+            return "redirect:/index";
+        }
         return "login";
     }
 
@@ -47,13 +52,14 @@ public class MainController {
         final String pass = passwordEncoder.encode(password);
         User user = new User(username, pass, "ROLE_USER", new Date());
         userRepository.save(user);
-        System.out.println("Logged in succesfully");
+        System.out.println("Registered succesfully");
         return "/login";
     }
 
     @GetMapping(value="/index")
-    public String Index()
+    public String Index(Model model)
     {
+        model.addAttribute("username","Erik");
         return "index";
     }
 

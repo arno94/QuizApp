@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" layout:decorator="layouts/main">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
 <title> Quiz App</title>
     <link href="css/style.css" rel="stylesheet"/>
@@ -11,6 +11,10 @@
     <div class="w3 w3 w3-center w3-allerta">
   <p class="w3-xxxlarge">Quiz App</p>
  </div>
+
+ <div th:if="${param.error}" class="alert alert-danger">Wrong username or password!</div>
+ <div th:if="${param.logout}" class="alert alert-success">Logout successful</div>
+
     <div id="login-box">
       <div class="left-box">
 	<form action="/register" method="POST">

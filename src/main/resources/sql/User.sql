@@ -8,7 +8,10 @@ create table User
     active   bit not null
 );
 
-
 -- Add roles column
 alter table User
     add column roles varchar(255) null;
+
+alter table User
+    drop column active;
+
