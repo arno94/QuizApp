@@ -9,6 +9,11 @@ body
     font-weight: 300;
     background-image: url(/images/image.jpg);
 }
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 h3 {
   border-bottom: 1px solid white;

@@ -1,5 +1,4 @@
 package com.quizapp.quizapp.controller;
-
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.User;
 import com.quizapp.quizapp.respository.UserRepository;
@@ -59,7 +58,11 @@ public class MainController {
     @GetMapping(value="/index")
     public String Index(Model model)
     {
-        model.addAttribute("username","Erik");
+        final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        model.addAttribute("username",userDto.getUsername());
+        model.addAttribute("solved_quiz","10");
+        model.addAttribute("avg_score","80");
+        model.addAttribute("rank","3");
         return "index";
     }
 

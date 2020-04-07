@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
 <title> Quiz App</title>
     <link href="css/index.css" rel="stylesheet"/>
@@ -39,10 +39,11 @@
         <div class="container">
 
             <h3>Profile</h3>
-            <p th:text="'Username: ' + ${username}">Username: </p> <p1> </p1><br><br>
-            <p>Solved quiz: </p> <p1>  </p1> <br><br>
-            <p>Average score percent:</p> <p1> %</p1><br><br>
-            <p>RANK:</p> <p1></p1><br><br>
+            <p th:text="'Username: ' + ${username}">Username: </p><br><br>
+            <p th:text="'Solved quiz: ' + ${solved_quiz}">Solved quiz: </p><br><br>
+            <p th:text="'Average score percent: ' + ${avg_score}">Average score percent:</p> <p1> %</p1><br><br>
+            <p th:text="'RANK: ' + ${rank}">RANK:</p><br><br>
+            <ul  class="no-bullets">
             <li>
                 <form method="GET" action="">
                     <button type="submit3">Statistics</button>
@@ -59,6 +60,7 @@
                     <button type="submit">Delete account</button>
                 </form>
             </li>
+            </ul>
         </div>
     </div>
 </div>
