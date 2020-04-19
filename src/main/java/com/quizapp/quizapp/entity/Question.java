@@ -1,5 +1,6 @@
 package com.quizapp.quizapp.entity;
 
+import com.quizapp.quizapp.enums.Difficulty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,5 +29,10 @@ public class Question {
     @Getter
     @Setter
     private String correctAnswer;
+
+    @Getter
+    @Setter
+    @Enumerated(EnumType.STRING)
+    private Difficulty difficulty;
 
 }

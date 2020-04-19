@@ -1,17 +1,18 @@
 package com.quizapp.quizapp.controller;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.User;
-import com.quizapp.quizapp.respository.QuestionRepository;
+import com.quizapp.quizapp.enums.Difficulty;
 import com.quizapp.quizapp.respository.StatisticsRepository;
 import com.quizapp.quizapp.respository.UserRepository;
 import com.quizapp.quizapp.security.UserDetailsServiceImpl;
+import com.quizapp.quizapp.util.QuizGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.Date;
 
@@ -25,7 +26,7 @@ public class MainController {
     private StatisticsRepository statisticsRepository;
 
     @Autowired
-    private QuestionRepository questionRepository;
+    private QuizGenerator quizGenerator;
 
     @GetMapping("/")
     public String Main() {
@@ -74,10 +75,29 @@ public class MainController {
         return "index";
     }
 
-    @GetMapping(value="/quiz")
-    public String Quiz(Model model)
+    @PostMapping(value="/generate_quiz")
+    public RedirectView generateQuiz(final RedirectAttributes redirectAttributes,
+             @RequestParam Difficulty difficulty, int questionCount) {
+        final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        if (userDto != null) {
+            redirectAttributes.addFlashAttribute("difficulty", difficulty);
+            redirectAttributes.addFlashAttribute("questionCount", questionCount);
+            return new RedirectView("/quiz");
+        }
+
+        return new RedirectView("/index");
+    }
+
+    @RequestMapping(value="/quiz")
+    public String Quiz(@ModelAttribute("difficulty") Difficulty difficulty,
+                       @ModelAttribute("questionCount") Integer questionCount)
     {
-        return "quiz";
+        final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        if (userDto != null) {
+            // TODO quiz progress
+            return "quiz";
+        }
+        return "redirect:/index";
     }
 
     @GetMapping(value="/result")
