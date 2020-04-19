@@ -1,6 +1,7 @@
 package com.quizapp.quizapp.controller;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.User;
+import com.quizapp.quizapp.respository.QuestionRepository;
 import com.quizapp.quizapp.respository.StatisticsRepository;
 import com.quizapp.quizapp.respository.UserRepository;
 import com.quizapp.quizapp.security.UserDetailsServiceImpl;
@@ -22,6 +23,9 @@ public class MainController {
 
     @Autowired
     private StatisticsRepository statisticsRepository;
+
+    @Autowired
+    private QuestionRepository questionRepository;
 
     @GetMapping("/")
     public String Main() {
