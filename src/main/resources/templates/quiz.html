@@ -1,5 +1,6 @@
 <!Doctype html>
-<head>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
+<head xmlns:th="http://www.w3.org/1999/xhtml">
     <link href="css/quiz.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +12,7 @@
 
 <div class="card">
     <div class="container">
+        <p th:text="'Kérdés száma: ' + ${questionCount}">
 <!--        <progress> </progress>-->
 <!--        <form action="/quiz" method="POST">-->
 <!--            <h2>{{quizdata["questionNumber"] + 1}}. question: {{question.question}}</h2>-->

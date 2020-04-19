@@ -90,9 +90,11 @@ public class MainController {
 
     @RequestMapping(value="/quiz")
     public String Quiz(@ModelAttribute("difficulty") Difficulty difficulty,
-                       @ModelAttribute("questionCount") Integer questionCount)
+                       @ModelAttribute("questionCount") Integer questionCount,
+                       Model model)
     {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        model.addAttribute("questionCount",questionCount);
         if (userDto != null) {
             // TODO quiz progress
             return "quiz";
