@@ -1,0 +1,123 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #F0F8FF;
+    font-size: 15px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-image: url(image.jpg);
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.6s;
+  background: #F0F8FF;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  position: relative;
+  margin:0 auto;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 0 0 25px 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+    background: #00BFFF;
+    transition: 0.2s ease;
+}
+
+input[type="submit"]
+{
+    background: #6495ED;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: 0.2s ease; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 5px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+.container {
+  top: 30px;
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+table {
+  
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: center;
+  padding: 12px;
+}
+
+th {
+background-color: #6495ED;
+color: white;
+font-style: italic;
+}
+
+table {
+    counter-reset: rowNumber;
+}
+
+table tr:not(:first-child) {
+    counter-increment: rowNumber;
+}
+
+table tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+tr:nth-child(odd) {
+  background-color: #E6E6FA;
+}
+
+tr:nth-child(even) {
+  background-color: #B0C4DE;
+}
+
+

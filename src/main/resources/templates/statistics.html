@@ -1,0 +1,37 @@
+<!Doctype html>
+<head>
+    <link href="css/statistics.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+</head>
+
+
+<div class = "container">
+<div class = "card">
+<h1>STATISTICS</h1>
+<table>
+
+<th>#RANK</th>
+<th>Name</th>
+<th>Answered questions</th>
+<th>Points</th>
+<th>Accuracy</th>
+
+{% for value in stat %}
+<tr>
+<td></td>
+<td>{{value["name"]}}</td>
+<td>{{value["questionNumber"]}}</td>
+<td>{{value["points"]}}</td>
+<td>{{value["avg"]}} %</td>
+</tr>
+{% endfor %}
+</table>
+</div>
+</div>
+
+<br><br>
+<form action="/index" method="GET">
+<p><input type="submit" value="Back to start"/></p>
+</form>

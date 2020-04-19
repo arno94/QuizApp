@@ -66,4 +66,22 @@ public class MainController {
         return "index";
     }
 
+    @GetMapping(value="/quiz")
+    public String Quiz(Model model)
+    {
+        return "quiz";
+    }
+
+    @GetMapping(value="/result")
+    public String Result(Model model)
+    {
+        return "result";
+    }
+
+    @GetMapping(value="/statistics")
+    public String Statistics(Model model)
+    {
+        return "statistics";
+    }
+
 }
