@@ -1,9 +1,9 @@
 package com.quizapp.quizapp.controller;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.User;
-import com.quizapp.quizapp.respository.StatisticsRepository;
 import com.quizapp.quizapp.respository.UserRepository;
 import com.quizapp.quizapp.security.UserDetailsServiceImpl;
+import com.quizapp.quizapp.services.UserDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -18,10 +18,10 @@ import java.util.Date;
 public class MainController {
 
     @Autowired
-    private UserRepository userRepository;
+    private UserDataService userDataService;
 
     @Autowired
-    private StatisticsRepository statisticsRepository;
+    private UserRepository userRepository;
 
     @GetMapping("/")
     public String Main() {
@@ -63,10 +63,11 @@ public class MainController {
     public String Index(Model model)
     {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+
         model.addAttribute("username",userDto.getUsername());
-        model.addAttribute("solved_quiz","10");
-        model.addAttribute("avg_score","80");
-        model.addAttribute("rank","3");
+        model.addAttribute("finished_test",userDataService.finishedTest());
+        model.addAttribute("avg_score", userDataService.avgScore());
+        model.addAttribute("rank","TO DO..");
         return "index";
     }
 

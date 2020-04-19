@@ -39,10 +39,10 @@
         <div class="container">
 
             <h3>Profile</h3>
-            <p th:text="'Username: ' + ${username}">Username: </p><br><br>
-            <p th:text="'Solved quiz: ' + ${solved_quiz}">Solved quiz: </p><br><br>
-            <p th:text="'Average score percent: ' + ${avg_score}">Average score percent:</p> <p1> %</p1><br><br>
-            <p th:text="'RANK: ' + ${rank}">RANK:</p><br><br>
+            <p>Username:</p><p1 th:text="' ' + ${username}"></p1><br><br>
+            <p>Solved quiz:</p><p1 th:text="' ' + ${finished_test}"></p1><br><br>
+            <p>Average score percent:</p><p1 th:text="' ' + ${avg_score}"></p1><p1> %</p1><br><br>
+            <p>#RANK:</p><p1 th:text="' ' + ${rank}"></p1><br><br>
             <ul  class="no-bullets">
             <li>
                 <form method="GET" action="/statistics">
