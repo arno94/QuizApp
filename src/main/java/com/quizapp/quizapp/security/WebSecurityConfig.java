@@ -30,6 +30,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers("/index").hasAnyRole("ADMIN", "USER")
                 .antMatchers("/login").hasAnyRole("ADMIN", "USER")
+                .antMatchers("/quiz").hasAnyRole("ADMIN", "USER")
+                .antMatchers("/generate_quiz").hasAnyRole("ADMIN", "USER")
                 .antMatchers("/").hasAnyRole("ADMIN", "USER")
                 .and().formLogin().
                 loginPage("/login").
