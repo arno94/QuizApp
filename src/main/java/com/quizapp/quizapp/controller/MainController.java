@@ -32,7 +32,7 @@ public class MainController {
     }
 
     @GetMapping(value="/login")
-    public String Login_Register(Model model)
+    public String Login_Register()
     {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         if (userDto != null) {
