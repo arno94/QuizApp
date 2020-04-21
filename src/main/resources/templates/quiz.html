@@ -4,33 +4,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="css/quiz.css" rel="stylesheet"/>
+
 </head>
 <h1>Quiz</h1>
 <body>
-
-<form id="regForm" action="#">
-    <!-- One "tab" for each step in the form: -->
-    <div class="tab" th:each="question : ${questions}">
-        <div class="container">
-            <h2 th:text="${question.getQuestion()}"></h2>
-            <div th:each="answer : ${question.getAnswers()}">
-                <input type="radio" id="answer" name="answer" th:value="${answer}">
-                <label for="answer" th:text="${answer}"></label>
-            </div>
-        </div>
-    </div>
-    <div style="overflow:auto;">
-        <div style="float:right;">
-            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-        </div>
-    </div>
-    <!-- Circles which indicates the steps of the form: -->
+<div class="card">
+    <div class="container">
+<form action="#">
+<!-- Circles which indicates the steps of the form: -->
     <div style="text-align:center;margin-top:40px;">
         <span class="step" th:each="question : ${questions}"></span>
     </div>
+	
+	
+	
+    <!-- One "tab" for each step in the form: -->
+    <div class="tab" th:each="question : ${questions}">
+        <div class="container">		
+            <h2 th:text="${question.getQuestion()}"></h2>
+            <div th:each="answer : ${question.getAnswers()}">
+			
+			<section class="light">
+  <label>
+    <input type="radio" name="light" th:value="${answer}">
+    <span class="design"></span>
+    <span class="text" for="answer" th:text="${answer}">Option 1</span>
+  </label>
+</section>
+			
+            </div>
+        </div>
+    </div>
+	
+
+
+
+	
+    <div style="overflow:auto;">
+            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+       
+    </div>
 </form>
+    </div>
+</div>
+</div>
 
 <script>
+
     var currentTab = 0; // Current tab is set to be the first tab (0)
     showTab(currentTab); // Display the current tab
 
@@ -104,21 +124,5 @@
         x[n].className += " active";
     }
 </script>
-
-<!--<div class="card">-->
-<!--    <div class="container">-->
-<!--        <p th:text="'Kérdés száma: ' + ${questionCount}">-->
-<!--        <progress> </progress>-->
-<!--        <form action="/quiz" method="POST">-->
-<!--            <h2>{{quizdata["questionNumber"] + 1}}. question: {{question.question}}</h2>-->
-<!--            {% for value in question.answers %}-->
-<!--            <label class="container">{{value}}-->
-<!--                <input type="radio"  name="answer" value={{value}} required/>-->
-<!--                <span class="checkmark"></span>-->
-<!--            </label>-->
-<!--        </form>-->
-<!--    </div>-->
-<!--    <p><input type="submit" value="Next"/></p>-->
-<!--</div>-->
 
 </body>
