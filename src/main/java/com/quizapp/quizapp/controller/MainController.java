@@ -11,7 +11,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import java.util.Date;
 
 @Controller
@@ -33,7 +32,7 @@ public class MainController {
     }
 
     @GetMapping(value="/login")
-    public String Login_Register()
+    public String Login_Register(Model model)
     {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         if (userDto != null) {
@@ -44,18 +43,19 @@ public class MainController {
 
     @PostMapping(value = "/register")
     public String registration(@RequestParam(value = "username", required = true) final String username,
-                               @RequestParam(value = "password", required = true) final String password) {
-        // TODO már létezik te balfasz
+                               @RequestParam(value = "password", required = true) final String password,
+                               Model model) {
         if (userRepository.findByUsername(username).isPresent()) {
             System.out.println("Már létezik te balfasz");
+            model.addAttribute("exists","Username already exists!");
             return "/login";
         }
-        // TODO sikeres belépés kezelése
         final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         final String pass = passwordEncoder.encode(password);
         User user = new User(username, pass, "ROLE_USER", new Date());
         userRepository.save(user);
-        System.out.println("Registered succesfully");
+        model.addAttribute("registered","Registered successfuly, please log in");
+
         return "/login";
     }
 
