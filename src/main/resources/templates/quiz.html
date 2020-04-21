@@ -10,41 +10,31 @@
 <body>
 <div class="card">
     <div class="container">
-<form action="#">
-<!-- Circles which indicates the steps of the form: -->
-    <div style="text-align:center;margin-top:40px;">
-        <span class="step" th:each="question : ${questions}"></span>
-    </div>
-	
-	
-	
-    <!-- One "tab" for each step in the form: -->
-    <div class="tab" th:each="question : ${questions}">
-        <div class="container">		
-            <h2 th:text="${question.getQuestion()}"></h2>
-            <div th:each="answer : ${question.getAnswers()}">
-			
-			<section class="light">
-  <label>
-    <input type="radio" name="light" th:value="${answer}">
-    <span class="design"></span>
-    <span class="text" for="answer" th:text="${answer}">Option 1</span>
-  </label>
-</section>
-			
+        <form action="#">
+            <!-- Circles which indicates the steps of the form: -->
+            <div style="text-align:center;margin-top:40px;">
+                <span class="step" th:each="question : ${questions}"></span>
             </div>
-        </div>
-    </div>
-	
+            <!-- One "tab" for each step in the form: -->
+            <div class="tab" th:each="question : ${questions}">
+                <div class="container">
+                    <h2 th:text="${question.getQuestion()}"></h2>
+                    <div th:each="answer : ${question.getAnswers()}">
+                        <section class="light">
+                            <label>
+                                <input type="radio" name="light" th:value="${answer}">
+                                <span class="design"></span>
+                                <span class="text" for="answer" th:text="${answer}">Option 1</span>
+                            </label>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div style="overflow:auto;">
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
 
-
-
-	
-    <div style="overflow:auto;">
-            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-       
-    </div>
-</form>
+            </div>
+        </form>
     </div>
 </div>
 </div>
