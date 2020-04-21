@@ -1,5 +1,6 @@
 package com.quizapp.quizapp.controller;
 import com.quizapp.quizapp.dto.UserDto;
+import com.quizapp.quizapp.entity.Question;
 import com.quizapp.quizapp.entity.User;
 import com.quizapp.quizapp.enums.Difficulty;
 import com.quizapp.quizapp.respository.StatisticsRepository;
@@ -15,6 +16,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 
 import java.util.Date;
+import java.util.List;
 
 @Controller
 public class MainController {
@@ -80,8 +82,9 @@ public class MainController {
              @RequestParam Difficulty difficulty, int questionCount) {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         if (userDto != null) {
-            redirectAttributes.addFlashAttribute("difficulty", difficulty);
+            final List<Question> questionList = quizGenerator.generateQuiz(questionCount, difficulty);
             redirectAttributes.addFlashAttribute("questionCount", questionCount);
+            redirectAttributes.addFlashAttribute("questions", questionList);
             return new RedirectView("/quiz");
         }
 
@@ -89,12 +92,11 @@ public class MainController {
     }
 
     @RequestMapping(value="/quiz")
-    public String Quiz(@ModelAttribute("difficulty") Difficulty difficulty,
-                       @ModelAttribute("questionCount") Integer questionCount,
-                       Model model)
-    {
+    public String Quiz(@ModelAttribute("questionCount") Integer questionCount,
+            @ModelAttribute("questions") List<Question> questions, Model model) {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         model.addAttribute("questionCount",questionCount);
+        model.addAttribute("questions", questions);
         if (userDto != null) {
             // TODO quiz progress
             return "quiz";
