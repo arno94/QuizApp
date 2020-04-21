@@ -22,7 +22,6 @@ public class Question {
     @Setter
     private String question;
 
-    @Getter
     @Setter
     private String answers;
 
@@ -34,5 +33,10 @@ public class Question {
     @Setter
     @Enumerated(EnumType.STRING)
     private Difficulty difficulty;
+
+    @Transient
+    public String[] getAnswers() {
+        return answers.split(";");
+    }
 
 }
