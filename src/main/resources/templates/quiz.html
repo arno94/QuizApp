@@ -11,10 +11,13 @@
 <form id="regForm" action="#">
     <!-- One "tab" for each step in the form: -->
     <div class="tab" th:each="question : ${questions}">
-        <h2 th:text="${question.getQuestion()}"></h2>
-        <label class="container">
-            <input type="radio" name="answer" th:value="${answer}" required th:each="answer : ${question.getAnswers()}">
-        </label>
+        <div class="container">
+            <h2 th:text="${question.getQuestion()}"></h2>
+            <div th:each="answer : ${question.getAnswers()}">
+                <input type="radio" id="answer" name="answer" th:value="${answer}">
+                <label for="answer" th:text="${answer}"></label>
+            </div>
+        </div>
     </div>
     <div style="overflow:auto;">
         <div style="float:right;">
