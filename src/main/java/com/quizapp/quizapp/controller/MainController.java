@@ -22,6 +22,7 @@ import org.springframework.web.servlet.view.RedirectView;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 
 @Controller
 public class MainController {
@@ -136,6 +137,14 @@ public class MainController {
     @GetMapping(value="/result")
     public String Result(Model model) {
         model.addAttribute("quizDtoList", quizDtoList);
+        final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        if (userDto != null) {
+            final Optional<Statistics> optionalStatistics = statisticsRepository.findByUserId(userDto.getId());
+            if (optionalStatistics.isPresent()) {
+                final Statistics statistics = updateStatisticsEntity(optionalStatistics.get(), quizDtoList);
+                statisticsRepository.save(statistics);
+            }
+        }
         return "result";
     }
 
@@ -143,6 +152,14 @@ public class MainController {
     public String Statistics(Model model)
     {
         return "statistics";
+    }
+
+    private Statistics updateStatisticsEntity(final Statistics statistics, final List<QuizDto> quizDtoList) {
+        statistics.setAnsweredQuestions(statistics.getAnsweredQuestions() + questionCount);
+        statistics.setCorrectAnswers(statistics.getCorrectAnswers() +
+                (int) quizDtoList.stream().filter(QuizDto::isCorrectAnswer).count());
+        statistics.setFinishedTest(statistics.getFinishedTest() + 1);
+        return statistics;
     }
 
 }
