@@ -10,19 +10,19 @@
 <body>
 <div class="card">
     <div class="container">
-        <form action="#">
+        <form action="/result" id="regForm" name="regForm" th:object="${quizDtoList}">
             <!-- Circles which indicates the steps of the form: -->
             <div style="text-align:center;margin-top:40px;">
-                <span class="step" th:each="question : ${questions}"></span>
+                <span class="step" th:each="question : ${quizDtoList}"></span>
             </div>
             <!-- One "tab" for each step in the form: -->
-            <div class="tab" th:each="question : ${questions}">
+            <div class="tab" th:each="question : ${quizDtoList}">
                 <div class="container">
-                    <h2 th:text="${question.getQuestion()}"></h2>
-                    <div th:each="answer : ${question.getAnswers()}">
+                    <h2 th:text="${question.getQuestion().getQuestion()}"></h2>
+                    <div th:each="answer : ${question.getQuestion().getAnswers()}">
                         <section class="light">
                             <label>
-                                <input type="radio" name="light" th:value="${answer}">
+                                <input type="radio" name="answer" th:value="${answer}">
                                 <span class="design"></span>
                                 <span class="text" for="answer" th:text="${answer}">Option 1</span>
                             </label>

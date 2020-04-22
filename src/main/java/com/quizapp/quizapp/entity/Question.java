@@ -34,7 +34,6 @@ public class Question {
     @Enumerated(EnumType.STRING)
     private Difficulty difficulty;
 
-    @Transient
     public String[] getAnswers() {
         return answers.split(";");
     }

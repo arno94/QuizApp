@@ -1,4 +1,5 @@
 package com.quizapp.quizapp.controller;
+import com.quizapp.quizapp.dto.QuizDto;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.Question;
 import com.quizapp.quizapp.entity.User;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -94,9 +96,11 @@ public class MainController {
     @RequestMapping(value="/quiz")
     public String Quiz(@ModelAttribute("questionCount") Integer questionCount,
             @ModelAttribute("questions") List<Question> questions, Model model) {
+        final List<QuizDto> quizDtoList = new ArrayList<>();
+        questions.forEach(q -> quizDtoList.add(new QuizDto(q)));
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         model.addAttribute("questionCount",questionCount);
-        model.addAttribute("questions", questions);
+        model.addAttribute("quizDtoList", quizDtoList);
         if (userDto != null) {
             // TODO quiz progress
             return "quiz";
@@ -105,8 +109,7 @@ public class MainController {
     }
 
     @GetMapping(value="/result")
-    public String Result(Model model)
-    {
+    public String Result(Model model) {
         return "result";
     }
 
