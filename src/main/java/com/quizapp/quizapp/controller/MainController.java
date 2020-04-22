@@ -1,5 +1,4 @@
 package com.quizapp.quizapp.controller;
-import com.quizapp.quizapp.dto.QuizDto;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.Question;
 import com.quizapp.quizapp.entity.User;
@@ -7,7 +6,9 @@ import com.quizapp.quizapp.enums.Difficulty;
 import com.quizapp.quizapp.respository.StatisticsRepository;
 import com.quizapp.quizapp.respository.UserRepository;
 import com.quizapp.quizapp.security.UserDetailsServiceImpl;
+import com.quizapp.quizapp.services.UserDataService;
 import com.quizapp.quizapp.util.QuizGenerator;
+import com.quizapp.quizapp.services.UserDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -22,6 +23,9 @@ import java.util.List;
 
 @Controller
 public class MainController {
+
+    @Autowired
+    private UserDataService userDataService;
 
     @Autowired
     private UserRepository userRepository;
@@ -53,18 +57,19 @@ public class MainController {
 
     @PostMapping(value = "/register")
     public String registration(@RequestParam(value = "username", required = true) final String username,
-                               @RequestParam(value = "password", required = true) final String password) {
-        // TODO már létezik te balfasz
+                               @RequestParam(value = "password", required = true) final String password,
+                               Model model) {
         if (userRepository.findByUsername(username).isPresent()) {
             System.out.println("Már létezik te balfasz");
+            model.addAttribute("exists","Username already exists!");
             return "/login";
         }
-        // TODO sikeres belépés kezelése
         final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         final String pass = passwordEncoder.encode(password);
         User user = new User(username, pass, "ROLE_USER", new Date());
         userRepository.save(user);
-        System.out.println("Registered succesfully");
+        model.addAttribute("registered","Registered successfuly, please log in");
+
         return "/login";
     }
 
@@ -72,10 +77,11 @@ public class MainController {
     public String Index(Model model)
     {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+
         model.addAttribute("username",userDto.getUsername());
-        model.addAttribute("solved_quiz","10");
-        model.addAttribute("avg_score","80");
-        model.addAttribute("rank","3");
+        model.addAttribute("finished_test",userDataService.finishedTest());
+        model.addAttribute("avg_score", userDataService.avgScore());
+        model.addAttribute("rank","TO DO..");
         return "index";
     }
 
