@@ -1,36 +1,33 @@
-<!Doctype html>
-<head>
-    <link href="css/result.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
-</head>
-<body>
-<h1>Result</h1>
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <link href="css/result.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    </head>
+    <body>
+        <h1>Result</h1>
 
-<div align="center" class="container">
-<div align="center" class="card">
-<table align="center">
-<th>Question number</th>
-<th>Result</th>
-{% for value in answers2 %}
-<tr>
-<td></td>
-{% if value == 'Correct' %}
-<td style="background-color: #00FF7F;" name="answers2" value="{{value}}"> {{value}} </td>
-{% elif value == 'Wrong' %}
-<td style="background-color: #FF6347;" name="answers2" value="{{value}}"> {{value}} </td>
-{% endif %}
-</tr>
-{% endfor %}
-</table>
-</div>
-</div>
-<br><br>
-<h2 name="points" value="{{points}}">Your score on the test:  {{points}}</h2>
+        <div align="center" class="container">
+            <div align="center" class="card">
+                <table align="center">
+                    <th>Question number</th>
+                    <th>Result</th>
+                    <tr th:each="quizDto : ${quizDtoList}">
+                        <td></td>
+                        <td th:if="${quizDto.isCorrectAnswer()}" style="background-color: #00FF7F;" name="answers2" th:value="${quizDto.getAnswer()}"></td>
+                        <td th:if="${!quizDto.isCorrectAnswer()}" style="background-color: #FF6347;" name="answers2" th:value="${quizDto.getAnswer()}"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br><br>
+        <!--    TODO: Score mutatása    -->
+<!--        <h2 name="points" th:value="${points}}">Your score on the test:  {{points}}</h2>-->
 
-<form action="/index" method="GET">
-<p align="center"><input type="submit" value="Back to start"/></p>
-</form>
-
-</body>
+        <form action="/index" method="GET">
+            <p align="center"><input type="submit" value="Back to start"/></p>
+        </form>
+    </body>
+</html>

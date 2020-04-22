@@ -85,24 +85,38 @@ public class MainController {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         if (userDto != null) {
             final List<Question> questionList = quizGenerator.generateQuiz(questionCount, difficulty);
-            redirectAttributes.addFlashAttribute("questionCount", questionCount);
-            redirectAttributes.addFlashAttribute("questions", questionList);
+            quizDtoList = new ArrayList<>();
+            questionList.forEach(q -> quizDtoList.add(new QuizDto(q)));
+            this.questionCount = questionCount;
+            questionIndex = 0;
+
             return new RedirectView("/quiz");
         }
 
         return new RedirectView("/index");
     }
 
-    @RequestMapping(value="/quiz")
-    public String Quiz(@ModelAttribute("questionCount") Integer questionCount,
-            @ModelAttribute("questions") List<Question> questions, Model model) {
-        final List<QuizDto> quizDtoList = new ArrayList<>();
-        questions.forEach(q -> quizDtoList.add(new QuizDto(q)));
+    private List<QuizDto> quizDtoList;
+    private int questionCount;
+    private int questionIndex = 0;
+
+    @PostMapping(value = "/quiz")
+    public String quiz(Model model, @RequestParam String answer) {
+        quizDtoList.get(questionIndex).setAnswer(answer);
+        questionIndex++;
+        if (questionIndex < questionCount) {
+            return "redirect:/quiz";
+        }
+        return "redirect:/result";
+    }
+
+    @GetMapping(value="/quiz")
+    public String Quiz(Model model) {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
-        model.addAttribute("questionCount",questionCount);
-        model.addAttribute("quizDtoList", quizDtoList);
         if (userDto != null) {
-            // TODO quiz progress
+            model.addAttribute("questionIndex", questionIndex);
+            model.addAttribute("questionCount", questionCount);
+            model.addAttribute("quizDto", quizDtoList.get(questionIndex));
             return "quiz";
         }
         return "redirect:/index";
@@ -110,6 +124,7 @@ public class MainController {
 
     @GetMapping(value="/result")
     public String Result(Model model) {
+        model.addAttribute("quizDtoList", quizDtoList);
         return "result";
     }
 

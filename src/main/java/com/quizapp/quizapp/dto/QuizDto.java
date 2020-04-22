@@ -18,12 +18,12 @@ public class QuizDto {
     @Setter
     private String answer;
 
-    @Getter
-    @Setter
-    private boolean correct;
-
     public QuizDto(Question question) {
         this.question = question;
+    }
+
+    public boolean isCorrectAnswer() {
+        return question.getCorrectAnswer().equals(answer);
     }
 }
 
