@@ -16,8 +16,8 @@
                     <th>Result</th>
                     <tr th:each="quizDto : ${quizDtoList}">
                         <td></td>
-                        <td th:if="${quizDto.isCorrectAnswer()}" style="background-color: #00FF7F;" name="answers2" th:value="${quizDto.getAnswer()}"></td>
-                        <td th:if="${!quizDto.isCorrectAnswer()}" style="background-color: #FF6347;" name="answers2" th:value="${quizDto.getAnswer()}"></td>
+                        <td th:if="${quizDto.isCorrectAnswer()}" style="background-color: #00FF7F;" th:text="${quizDto.getAnswer()}"></td>
+                        <td th:if="${!quizDto.isCorrectAnswer()}" style="background-color: #FF6347;"  th:text="${quizDto.getAnswer()}"></td>
                     </tr>
                 </table>
             </div>

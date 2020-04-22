@@ -63,7 +63,6 @@ public class MainController {
                                @RequestParam(value = "password", required = true) final String password,
                                Model model) {
         if (userRepository.findByUsername(username).isPresent()) {
-            System.out.println("Már létezik te balfasz");
             model.addAttribute("exists","Username already exists!");
             return "/login";
         }
