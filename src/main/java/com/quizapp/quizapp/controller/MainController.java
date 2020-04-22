@@ -1,4 +1,5 @@
 package com.quizapp.quizapp.controller;
+import com.quizapp.quizapp.dto.QuizDto;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.Question;
 import com.quizapp.quizapp.entity.User;
