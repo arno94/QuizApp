@@ -2,6 +2,7 @@ package com.quizapp.quizapp.controller;
 import com.quizapp.quizapp.dto.QuizDto;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.Question;
+import com.quizapp.quizapp.entity.Statistics;
 import com.quizapp.quizapp.entity.User;
 import com.quizapp.quizapp.enums.Difficulty;
 import com.quizapp.quizapp.respository.StatisticsRepository;
@@ -70,6 +71,9 @@ public class MainController {
         User user = new User(username, pass, "ROLE_USER", new Date());
         userRepository.save(user);
         model.addAttribute("registered","Registered successfuly, please log in");
+
+        final Statistics statistics = new Statistics(user.getId(), user, 0, 0, 0);
+        statisticsRepository.save(statistics);
 
         return "/login";
     }
