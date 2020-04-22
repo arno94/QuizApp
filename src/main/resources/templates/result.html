@@ -23,9 +23,7 @@
             </div>
         </div>
         <br><br>
-        <!--    TODO: Score mutatása    -->
-<!--        <h2 name="points" th:value="${points}}">Your score on the test:  {{points}}</h2>-->
-
+       <h2 name="points" th:text="'Your points: '+ ${points}"></h2>
         <form action="/index" method="GET">
             <p align="center"><input type="submit" value="Back to start"/></p>
         </form>

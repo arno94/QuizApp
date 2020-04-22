@@ -26,6 +26,26 @@ public class UserDataService
         return avg_score;
     }
 
+    public double scorePoints(double avg_score,int correct_answers)
+    {
+        double score = 0;
+
+        if(avg_score < 30.0)
+        {
+           score = correct_answers;
+        }
+        else if(avg_score > 70.)
+        {
+            score = correct_answers * 2.0;
+        }
+        else
+        {
+          score = correct_answers * 1.5;
+        }
+
+        return score;
+    }
+
     public int finishedTest()
     {
         int finished_test = 0;

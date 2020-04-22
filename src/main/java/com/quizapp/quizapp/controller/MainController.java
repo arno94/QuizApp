@@ -10,7 +10,6 @@ import com.quizapp.quizapp.respository.UserRepository;
 import com.quizapp.quizapp.security.UserDetailsServiceImpl;
 import com.quizapp.quizapp.services.UserDataService;
 import com.quizapp.quizapp.util.QuizGenerator;
-import com.quizapp.quizapp.services.UserDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Controller;
@@ -135,7 +134,9 @@ public class MainController {
 
     @GetMapping(value="/result")
     public String Result(Model model) {
+        int points = (int) quizDtoList.stream().filter(QuizDto::isCorrectAnswer).count();
         model.addAttribute("quizDtoList", quizDtoList);
+        model.addAttribute("points", points);
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         if (userDto != null) {
             final Optional<Statistics> optionalStatistics = statisticsRepository.findByUserId(userDto.getId());
