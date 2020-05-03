@@ -26,9 +26,9 @@ public class UserDataService
         return avg_score;
     }
 
-    public double scorePoints(double avg_score,int correct_answers)
+    public int scorePoints(float avg_score, int correct_answers)
     {
-        double score = 0;
+        double score;
 
         if(avg_score < 30.0)
         {
@@ -43,7 +43,7 @@ public class UserDataService
           score = correct_answers * 1.5;
         }
 
-        return score;
+        return (int)score;
     }
 
     public int finishedTest()

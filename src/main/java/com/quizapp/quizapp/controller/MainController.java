@@ -38,6 +38,10 @@ public class MainController {
     @Autowired
     private QuizGenerator quizGenerator;
 
+    private List<QuizDto> quizDtoList;
+    private int questionCount;
+    private int questionIndex = 0;
+
     @GetMapping("/")
     public String Main() {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
@@ -71,7 +75,7 @@ public class MainController {
         userRepository.save(user);
         model.addAttribute("registered","Registered successfuly, please log in");
 
-        final Statistics statistics = new Statistics(user.getId(), user, 0, 0, 0);
+        final Statistics statistics = new Statistics(user.getId(), user, 0, 0, 0, 0);
         statisticsRepository.save(statistics);
 
         return "/login";
@@ -106,10 +110,6 @@ public class MainController {
         return new RedirectView("/index");
     }
 
-    private List<QuizDto> quizDtoList;
-    private int questionCount;
-    private int questionIndex = 0;
-
     @PostMapping(value = "/quiz")
     public String quiz(Model model, @RequestParam String answer) {
         quizDtoList.get(questionIndex).setAnswer(answer);
@@ -134,15 +134,16 @@ public class MainController {
 
     @GetMapping(value="/result")
     public String Result(Model model) {
-        int points = (int) quizDtoList.stream().filter(QuizDto::isCorrectAnswer).count();
-        model.addAttribute("quizDtoList", quizDtoList);
-        model.addAttribute("points", points);
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         if (userDto != null) {
+            int points = (int) quizDtoList.stream().filter(QuizDto::isCorrectAnswer).count();
+            model.addAttribute("quizDtoList", quizDtoList);
+            model.addAttribute("points", points);
             final Optional<Statistics> optionalStatistics = statisticsRepository.findByUserId(userDto.getId());
             if (optionalStatistics.isPresent()) {
                 final Statistics statistics = updateStatisticsEntity(optionalStatistics.get(), quizDtoList);
                 statisticsRepository.save(statistics);
+                model.addAttribute("score", statistics.getScore());
             }
         }
         return "result";
@@ -155,10 +156,13 @@ public class MainController {
     }
 
     private Statistics updateStatisticsEntity(final Statistics statistics, final List<QuizDto> quizDtoList) {
+        final int correctAnswers = (int) quizDtoList.stream().filter(QuizDto::isCorrectAnswer).count();
         statistics.setAnsweredQuestions(statistics.getAnsweredQuestions() + questionCount);
         statistics.setCorrectAnswers(statistics.getCorrectAnswers() +
-                (int) quizDtoList.stream().filter(QuizDto::isCorrectAnswer).count());
+                correctAnswers);
         statistics.setFinishedTest(statistics.getFinishedTest() + 1);
+        statistics.setScore(statistics.getScore() +
+                userDataService.scorePoints(100f * (float)correctAnswers / questionCount, correctAnswers));
         return statistics;
     }
 

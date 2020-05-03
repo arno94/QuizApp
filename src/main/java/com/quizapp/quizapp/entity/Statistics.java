@@ -36,4 +36,8 @@ public class Statistics {
     @Setter
     private int finishedTest;
 
+    @Getter
+    @Setter
+    private int score;
+
 }
