@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/dfdfa558db.js" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 <div>
@@ -17,10 +22,8 @@
                 <h3>Start a new quiz</h3>
                 <p2> Select the difficulty:</p2>
                 <select name="difficulty">
-                    <option value="ALL">all</option>
-                    <option value="EASY">easy</option>
-                    <option value="MEDIUM">medium</option>
-                    <option value="HARD">hard</option>
+                    <option th:each="difficulty: ${difficulties}" th:value="${difficulty}"
+                            th:text="${difficulty.getRealName()}"></option>
                 </select><br><br>
                 <p2> Select the number of questions: </p2>
                 <select name="questionCount">
@@ -43,8 +46,9 @@
             <div>
                 <p>Username:</p><p1 th:text="' ' + ${userData.getUsername()}"></p1>
             <div class="dropdown">
-                <button class="w3-button w3-pale-green"><i class="fas fa-caret-down"></i></button>
-                <div class="dropdown-content">
+                <button class="btn btn-outline-info dropdown-toggle" type="button" id="settings" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="settings">
                     <a class="dropdown-item" href="/logout">Logout</a>
                     <a class="dropdown-item" href="" onsubmit="return confirm('Delete your account?')">Delete account</a>
                 </div>

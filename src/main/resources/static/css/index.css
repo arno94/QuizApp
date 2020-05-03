@@ -36,14 +36,14 @@ p2 { font-weight: 600;
 }
 
 .left {
- position: absolute;
+ position: absolute !important;
  top: 10%;
  left: 60px;
  width: 60%;
 }
 
 .right {
-  position: absolute;
+  position: absolute !important;
   top: 10%;
   right: 60px;
   width: 30%;
