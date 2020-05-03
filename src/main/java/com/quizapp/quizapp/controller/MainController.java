@@ -1,5 +1,6 @@
 package com.quizapp.quizapp.controller;
 import com.quizapp.quizapp.dto.QuizDto;
+import com.quizapp.quizapp.dto.UserDataDto;
 import com.quizapp.quizapp.dto.UserDto;
 import com.quizapp.quizapp.entity.Question;
 import com.quizapp.quizapp.entity.Statistics;
@@ -85,11 +86,17 @@ public class MainController {
     public String Index(Model model)
     {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        final Optional<Statistics> optionalStatistics = statisticsRepository.findByUserId(userDto.getId());
+        final UserDataDto userDataDto = new UserDataDto(userDto.getUsername(), userDataService.finishedTest(),
+                userDataService.avgScore(), 0, 1);
 
-        model.addAttribute("username",userDto.getUsername());
-        model.addAttribute("finished_test",userDataService.finishedTest());
-        model.addAttribute("avg_score", userDataService.avgScore());
-        model.addAttribute("rank","TO DO..");
+        if (optionalStatistics.isPresent()) {
+            final Statistics statistics = optionalStatistics.get();
+            userDataDto.setScore(statistics.getScore());
+        }
+
+        model.addAttribute("difficulties", Difficulty.values());
+        model.addAttribute("userData", userDataDto);
         return "index";
     }
 

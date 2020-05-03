@@ -4,10 +4,10 @@ import lombok.Getter;
 
 public enum Difficulty {
 
-    EASY("könnyű"),
-    MEDIUM("közepes"),
-    HARD("nehéz"),
-    ALL("összes");
+    EASY("easy"),
+    MEDIUM("medium"),
+    HARD("hard"),
+    ALL("all");
 
     @Getter
     private String realName;

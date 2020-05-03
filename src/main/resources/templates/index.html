@@ -15,10 +15,8 @@
                 <h3>Start a new quiz</h3>
                 <p2> Select the difficulty:</p2>
                 <select name="difficulty">
-                    <option value="ALL">all</option>
-                    <option value="EASY">easy</option>
-                    <option value="MEDIUM">medium</option>
-                    <option value="HARD">hard</option>
+                    <option th:each="difficulty: ${difficulties}" th:value="${difficulty}"
+                            th:text="${difficulty.getRealName()}"></option>
                 </select><br><br>
                 <p2> Select the number of questions: </p2>
                 <select name="questionCount">
@@ -39,10 +37,11 @@
         <div class="container">
 
             <h3>Profile</h3>
-            <p>Username:</p><p1 th:text="' ' + ${username}"></p1><br><br>
-            <p>Solved quiz:</p><p1 th:text="' ' + ${finished_test}"></p1><br><br>
-            <p>Average score percent:</p><p1 th:text="' ' + ${avg_score}"></p1><p1> %</p1><br><br>
-            <p>#RANK:</p><p1 th:text="' ' + ${rank}"></p1><br><br>
+            <p>Username:</p><p1 th:text="' ' + ${userData.getUsername()}"></p1><br><br>
+            <p>Solved quiz:</p><p1 th:text="' ' + ${userData.getFinishedTests()}"></p1><br><br>
+            <p>Score:</p><p1 th:text="' ' + ${userData.getScore()}"></p1><br><br>
+            <p>Average score percent:</p><p1 th:text="' ' + ${userData.getAvgScore()}"></p1><p1> %</p1><br><br>
+            <p>#RANK:</p><p1 th:text="' ' + ${userData.getRank()}"></p1><br><br>
             <ul  class="no-bullets">
             <li>
                 <form method="GET" action="/statistics">
