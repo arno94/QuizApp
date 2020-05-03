@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
      <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/dfdfa558db.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div>
@@ -15,8 +17,10 @@
                 <h3>Start a new quiz</h3>
                 <p2> Select the difficulty:</p2>
                 <select name="difficulty">
-                    <option th:each="difficulty: ${difficulties}" th:value="${difficulty}"
-                            th:text="${difficulty.getRealName()}"></option>
+                    <option value="ALL">all</option>
+                    <option value="EASY">easy</option>
+                    <option value="MEDIUM">medium</option>
+                    <option value="HARD">hard</option>
                 </select><br><br>
                 <p2> Select the number of questions: </p2>
                 <select name="questionCount">
@@ -35,9 +39,19 @@
 
     <div class="card right">
         <div class="container">
-
             <h3>Profile</h3>
-            <p>Username:</p><p1 th:text="' ' + ${userData.getUsername()}"></p1><br><br>
+            <div>
+                <p>Username:</p><p1 th:text="' ' + ${userData.getUsername()}"></p1>
+            <div class="dropdown">
+                <button class="w3-button w3-pale-green"><i class="fas fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a class="dropdown-item" href="/logout">Logout</a>
+                    <a class="dropdown-item" href="" onsubmit="return confirm('Delete your account?')">Delete account</a>
+                </div>
+            </div>
+
+            </div>
+            <br>
             <p>Solved quiz:</p><p1 th:text="' ' + ${userData.getFinishedTests()}"></p1><br><br>
             <p>Score:</p><p1 th:text="' ' + ${userData.getScore()}"></p1><br><br>
             <p>Average score percent:</p><p1 th:text="' ' + ${userData.getAvgScore()}"></p1><p1> %</p1><br><br>
@@ -46,17 +60,6 @@
             <li>
                 <form method="GET" action="/statistics">
                     <button type="submit3">Statistics</button>
-                </form>
-            </li>
-            <li>
-            <form action="/logout" method="POST">
-                    <input type="submit" value="Logout"/>
-            </form>
-            </li>
-            <li>
-                <form method=POST onsubmit="return confirm('Delete your account?')"
-                      action="">
-                    <button type="submit">Delete account</button>
                 </form>
             </li>
             </ul>
