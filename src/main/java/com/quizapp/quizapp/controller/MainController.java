@@ -93,6 +93,7 @@ public class MainController {
         if (optionalStatistics.isPresent()) {
             final Statistics statistics = optionalStatistics.get();
             userDataDto.setScore(statistics.getScore());
+            userDataDto.setRank(statisticsRepository.countByScoreGreaterThan(statistics.getScore()) + 1);
         }
 
         model.addAttribute("difficulties", Difficulty.values());

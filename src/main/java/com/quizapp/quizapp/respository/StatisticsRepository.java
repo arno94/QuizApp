@@ -9,5 +9,7 @@ public interface StatisticsRepository extends JpaRepository<Statistics, Integer>
 
     Optional<Statistics> findByUserId(Long username);
 
+    int countByScoreGreaterThan(int score);
+
 }
 
