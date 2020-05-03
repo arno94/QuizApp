@@ -1,4 +1,5 @@
 <!Doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head>
     <link href="css/statistics.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -14,19 +15,14 @@
 
 <th>#RANK</th>
 <th>Name</th>
+    <th>Score</th>
 <th>Answered questions</th>
-<th>Points</th>
-<th>Accuracy</th>
-
-{% for value in stat %}
-<tr>
-<td></td>
-<td>{{value["name"]}}</td>
-<td>{{value["questionNumber"]}}</td>
-<td>{{value["points"]}}</td>
-<td>{{value["avg"]}} %</td>
+<tr th:each="stats,iter: ${statisticList}">
+    <td></td>
+<td th:text="${stats.getUser().getUsername()}"></td>
+<td th:text="${stats.getScore()}"></td>
+<td th:text="${stats.getAnsweredQuestions()}"></td>
 </tr>
-{% endfor %}
 </table>
 </div>
 </div>

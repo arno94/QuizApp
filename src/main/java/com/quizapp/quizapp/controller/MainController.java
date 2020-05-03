@@ -160,6 +160,11 @@ public class MainController {
     @GetMapping(value="/statistics")
     public String Statistics(Model model)
     {
+        final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        if (userDto != null) {
+            final List<Statistics> statistics = statisticsRepository.findAll();
+                model.addAttribute("statisticList", statistics );
+        }
         return "statistics";
     }
 
