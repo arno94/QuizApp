@@ -195,11 +195,11 @@ select {
 }
 
 .dropdown-content {
+    text-align: center;
     display: none;
     position: absolute;
     background-color: white;
     min-width: 30px;
-    box-shadow: white;
     z-index: 1;
 }
 
@@ -210,7 +210,7 @@ select {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #fefefe
+.dropdown-content a:hover {background-color: #C0C0C0
 }
 
 .dropdown:hover .dropdown-content {
