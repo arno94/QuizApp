@@ -19,10 +19,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import org.springframework.web.servlet.view.RedirectView;
 
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Controller
 public class MainController {
@@ -72,7 +69,7 @@ public class MainController {
         }
         final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         final String pass = passwordEncoder.encode(password);
-        User user = new User(username, pass, "ROLE_USER", new Date());
+        User user = new User(username, pass, "ROLE_USER", new Date(), true);
         userRepository.save(user);
         model.addAttribute("registered","Registered successfuly, please log in");
 
@@ -132,9 +129,12 @@ public class MainController {
     public String Quiz(Model model) {
         final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
         if (userDto != null) {
+            List<String> shuffled_list = Arrays.asList(quizDtoList.get(questionIndex).getQuestion().getAnswers());
+            Collections.shuffle(shuffled_list);
             model.addAttribute("questionIndex", questionIndex);
             model.addAttribute("questionCount", questionCount);
             model.addAttribute("quizDto", quizDtoList.get(questionIndex));
+            model.addAttribute("shuffled_list", shuffled_list);
             return "quiz";
         }
         return "redirect:/index";
@@ -166,6 +166,20 @@ public class MainController {
                 model.addAttribute("statisticList", statistics );
         }
         return "statistics";
+    }
+
+    @GetMapping(value="/delete")
+    public String Delete()
+    {
+        final UserDto userDto = UserDetailsServiceImpl.getLoggedInUserDetails();
+        if (userDto != null)
+        {
+            final Optional<User> optionalUser = userRepository.findByUsername(userDto.getUsername());
+            final User user = optionalUser.get();
+            user.setActive(false);
+            userRepository.save(user);
+        }
+        return "redirect:/logout";
     }
 
     private Statistics updateStatisticsEntity(final Statistics statistics, final List<QuizDto> quizDtoList) {

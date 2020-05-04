@@ -14,7 +14,7 @@
             <progress  th:value="${questionIndex}" th:max="${questionCount}"> </progress>
             <div class="container">
                 <h2 th:text="${quizDto.getQuestion().getQuestion()}"></h2>
-                <div th:each="answer : ${quizDto.getQuestion().getAnswers()}">
+                <div th:each="answer : ${shuffled_list}">
                     <section class="light">
                         <label>
                             <input type="radio" name="answer" th:value="${answer}" required>

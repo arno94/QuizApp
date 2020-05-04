@@ -1,8 +1,10 @@
 package com.quizapp.quizapp.security;
 
 import com.quizapp.quizapp.entity.User;
+import com.quizapp.quizapp.respository.StatisticsRepository;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -14,6 +16,9 @@ import java.util.stream.Collectors;
 
 public class MyUserDetails implements UserDetails {
 
+    @Autowired
+    private User user;
+
     @Getter
     @Setter
     private Long id;
@@ -24,6 +29,9 @@ public class MyUserDetails implements UserDetails {
     @Getter
     private String password;
 
+    @Getter
+    private boolean active;
+
     private List<GrantedAuthority> authorities;
 
     public MyUserDetails(final User user) {
@@ -33,6 +41,8 @@ public class MyUserDetails implements UserDetails {
         this.authorities = Arrays.stream(user.getRoles().split(","))
                 .map(SimpleGrantedAuthority::new)
                 .collect(Collectors.toList());
+        this.active = user.isActive();
+
     }
 
     public MyUserDetails() {}
@@ -59,6 +69,6 @@ public class MyUserDetails implements UserDetails {
 
     @Override
     public boolean isEnabled() {
-        return true;
+        return active;
     }
 }

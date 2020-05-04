@@ -87,7 +87,7 @@ button {
 	width: 165px;
     height: 45px;
     border: none;
-	border-radius: 2px;
+    border-radius: 10px;
     padding: 10px 20px;
     font-size: 17px;
     font-family: Raleway;

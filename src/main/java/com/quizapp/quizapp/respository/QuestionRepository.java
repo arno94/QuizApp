@@ -11,6 +11,5 @@ public interface QuestionRepository extends JpaRepository<Question, Integer> {
     List<Question> findByDifficulty(Difficulty difficulty);
 
     List<Question> findAll();
-
 }
 

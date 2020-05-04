@@ -7,7 +7,7 @@ body
     color: black;
     font-family: sans-serif;
     font-weight: 300;
-    background-image: url(image.jpg);
+    background-image: url(/images/image.jpg);
 }
 .card {
   /* Add shadows to create the "card" effect */
@@ -63,6 +63,7 @@ input[type="submit"]
     margin: 8px 5px;
     cursor: pointer;
     margin-left: 35px;
+    border-radius: 10px;
 }
 
 .container {

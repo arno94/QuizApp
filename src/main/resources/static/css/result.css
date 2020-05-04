@@ -7,7 +7,7 @@ body
     color: #191970;
     font-family: sans-serif;
     font-weight: 300;
-    background-image: url(image.jpg);
+    background-image: url(/images/image.jpg);
 }
 
 .card {
@@ -18,7 +18,7 @@ body
   border-radius: 10px;
   left: 25%;
   width: 80%;
-   background-image: url(image.jpg);
+   background-image: url(/images/image.jpg);
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -67,6 +67,7 @@ input[type="submit"]
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 table {

@@ -1,6 +1,7 @@
 package com.quizapp.quizapp.entity;
 
 import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -28,12 +29,17 @@ public class User {
     @Getter
     private Date date;
 
+    @Setter
+    @Getter
+    private boolean active;
+
     public User() {}
 
-    public User(final String username, final String password, final String roles, final Date date) {
+    public User(final String username, final String password, final String roles, final Date date, boolean active) {
         this.username = username;
         this.password = password;
         this.roles = roles;
         this.date = date;
+        this.active = active;
     }
 }

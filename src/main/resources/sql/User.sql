@@ -13,5 +13,5 @@ alter table User
     add column roles varchar(255) null;
 
 alter table User
-    drop column active;
+    add column active bit not null default true;
 
