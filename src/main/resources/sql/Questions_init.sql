@@ -228,7 +228,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?',
-'&lt;marquee&gt;&lt;/marquee&gt;', '&lt;marquee&gt;&lt;/marquee&gt;;&lt;scroll&gt;&lt;/scroll&gt;;&lt;move&gt;&lt;/move&gt;;&lt;slide&gt;&lt;/slide&gt;'
+'<marquee></marquee>', '<marquee></marquee>;<scroll></scroll>;<move></move>;<slide></slide>'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -548,7 +548,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'What is the relationship between the band members of American rock band King of Leon?',
-'Brothers &amp; cousins', 'Brothers &amp; cousins;Childhood friends;Former classmates;Fraternity house members'
+'Brothers & cousins', 'Brothers & cousins;Childhood friends;Former classmates;Fraternity house members'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -899,7 +899,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Pok&émon Go is a location-based augmented reality game developed and published by which company?',
+'Pokémon Go is a location-based augmented reality game developed and published by which company?',
 'Niantic', 'Niantic;Rovio;Zynga;Supercell'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1036,7 +1036,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?',
-'Yo-kai Watch', 'Yo-kai Watch;Pok&émon;Yu-gi-oh;Buddyfight'
+'Yo-kai Watch', 'Yo-kai Watch;Pokémon;Yu-gi-oh;Buddyfight'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1356,7 +1356,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'Who is the chemical element Curium named after?',
-'Marie &amp; Pierre Curie', 'Marie &amp; Pierre Curie;The Curiosity Rover;Curious George;Stephen Curry'
+'Marie & Pierre Curie', 'Marie & Pierre Curie;The Curiosity Rover;Curious George;Stephen Curry'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1428,7 +1428,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 '"All the Boys" by Panic! At the Disco was released as a bonus track on what album?',
-'Too Weird To Live, Too Rare To Die!', 'Too Weird To Live, Too Rare To Die!;A Fever You Can''t Sweat Out;Death Of A Bachelor;Vices &amp; Virtues'
+'Too Weird To Live, Too Rare To Die!', 'Too Weird To Live, Too Rare To Die!;A Fever You Can''t Sweat Out;Death Of A Bachelor;Vices & Virtues'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1516,7 +1516,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'In which manga did the "404 Girl" from 4chan originate from?',
-'Yotsuba&amp;!', 'Yotsuba&amp;!;Azumanga Daioh;Lucky Star;Clover'
+'Yotsuba&!', 'Yotsuba&!;Azumanga Daioh;Lucky Star;Clover'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1627,7 +1627,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is Pikachu''s National Pok&éDex Number?',
+'What is Pikachu''s National PokéDex Number?',
 '#025', '#025;#001;#031;#109'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1868,7 +1868,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'Who is the lead singer of Green Day?',
-'Billie Joe Armstrong', 'Billie Joe Armstrong;Mike Dirnt;Sean Hughes;Tr&é Cool'
+'Billie Joe Armstrong', 'Billie Joe Armstrong;Mike Dirnt;Sean Hughes;Tré Cool'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -2476,7 +2476,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which city is the capital of Switzerland?',
-'Bern', 'Bern;Z&uuml;rich;Frankfurt;Wien'
+'Bern', 'Bern;Zürich;Frankfurt;Wien'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -2627,7 +2627,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which soccer team won the Copa Am&érica 2015 Championship ?',
+'Which soccer team won the Copa América 2015 Championship ?',
 'Chile', 'Chile;Argentina;Brazil;Paraguay'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2636,7 +2636,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?',
-'Yo-kai Watch', 'Yo-kai Watch;Pok&émon;Yu-gi-oh;Buddyfight'
+'Yo-kai Watch', 'Yo-kai Watch;Pokémon;Yu-gi-oh;Buddyfight'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -2900,7 +2900,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'What name was historically used for the Turkish city currently known as Istanbul?',
-'Constaninople', 'Constaninople;H&uuml;davendigar;S&ouml;ğ&uuml;t;Adrianople'
+'Constaninople', 'Constaninople;Hüdavendigar;Soğüt;Adrianople'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3004,7 +3004,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?',
-'&lt;marquee&gt;&lt;/marquee&gt;', '&lt;marquee&gt;&lt;/marquee&gt;;&lt;scroll&gt;&lt;/scroll&gt;;&lt;move&gt;&lt;/move&gt;;&lt;slide&gt;&lt;/slide&gt;'
+'<marquee></marquee>', '<marquee></marquee>;<scroll></scroll>;<move></move>;<slide></slide>'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3036,7 +3036,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Who made the discovery of X-rays?',
-'Wilhelm Conrad R&ouml;ntgen', 'Wilhelm Conrad R&ouml;ntgen;Thomas Alva Edison;James Watt;Albert Einstein'
+'Wilhelm Conrad Rontgen', 'Wilhelm Conrad Rontgen;Thomas Alva Edison;James Watt;Albert Einstein'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3044,7 +3044,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Who authored The Adventures of Tintin?',
-'Herg&é', 'Herg&é;E.P. Jacobs;Rin Tin Tin;Chic Young'
+'Hergé', 'Hergé;E.P. Jacobs;Rin Tin Tin;Chic Young'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3252,7 +3252,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?',
-'Cabbage Patch Kids', 'Cabbage Patch Kids;Transformers;Care Bears;Rubik&rsquo;s Cube'
+'Cabbage Patch Kids', 'Cabbage Patch Kids;Transformers;Care Bears;Rubik""s Cube'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3715,7 +3715,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of these is NOT a team available in the game Pok&émon Go?',
+'Which of these is NOT a team available in the game Pokémon Go?',
 'Team Rocket', 'Team Rocket;Team Instinct;Team Valor;Team Mystic'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3803,7 +3803,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In Pok&émon, Ash''s Pikachu refuses to go into a pokeball.',
+'In Pokémon, Ash''s Pikachu refuses to go into a pokeball.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3828,7 +3828,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'Which one of these Swedish companies was founded in 1943?',
-'IKEA', 'IKEA;H &amp; M;Lindex;Clas Ohlson'
+'IKEA', 'IKEA;H & M;Lindex;Clas Ohlson'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4059,7 +4059,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The country song  &ldquo;A Boy Named Sue&rdquo; was written by Shel Silverstein.',
+'The country song  £A Boy Named Sue""; was written by Shel Silverstein.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4212,7 +4212,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'Which 80s band is fronted by singer/guitarist Robert Smith?',
-'The Cure', 'The Cure;The Smiths;Echo &amp; the Bunnymen;New Order'
+'The Cure', 'The Cure;The Smiths;Echo & the Bunnymen;New Order'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4244,7 +4244,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'In the 2012 animated film "Wolf Children", what are the names of the wolf children?',
-'Ame &amp; Yuki', 'Ame &amp; Yuki;Hana &amp; Yuki;Ame &amp; Hana;Chuck &amp; Anna'
+'Ame & Yuki', 'Ame & Yuki;Hana & Yuki;Ame & Hana;Chuck & Anna'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4532,7 +4532,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'What type of genre is the controversial 2015 game "Hatred"?',
-'Shoot ''Em Up', 'Shoot ''Em Up;Point &amp; Click;MMORPG;Simulation'
+'Shoot ''Em Up', 'Shoot ''Em Up;Point & Click;MMORPG;Simulation'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4604,7 +4604,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which artist''s style was to use small different colored dots to create a picture?',
-'Georges Seurat', 'Georges Seurat;Paul C&ézanne;Vincent Van Gogh;Henri Rousseau'
+'Georges Seurat', 'Georges Seurat;Paul Cézanne;Vincent Van Gogh;Henri Rousseau'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4715,7 +4715,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What is the most challenging monster in the Dungeons &amp; Dragons 5th Edition Monster Manual?',
+'What is the most challenging monster in the Dungeons & Dragons 5th Edition Monster Manual?',
 'Tarrasque', 'Tarrasque;Beholder;Displacer Beast;Lich'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4780,7 +4780,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which 90''s comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?',
-'Wayne''s World', 'Wayne''s World;Bill &amp; Ted''s Excellent Adventure;Dumb and Dumber;Austin Powers: International Man of Mystery'
+'Wayne''s World', 'Wayne''s World;Bill & Ted''s Excellent Adventure;Dumb and Dumber;Austin Powers: International Man of Mystery'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -5396,7 +5396,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'In the 2012 animated film "Wolf Children", what are the names of the wolf children?',
-'Ame &amp; Yuki', 'Ame &amp; Yuki;Hana &amp; Yuki;Ame &amp; Hana;Chuck &amp; Anna'
+'Ame & Yuki', 'Ame & Yuki;Hana & Yuki;Ame & Hana;Chuck & Anna'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -5491,7 +5491,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Bj&ouml;rk''s "Unison" contains a sample of which Oval song?',
+'Bjork''s "Unison" contains a sample of which Oval song?',
 'Aero Deck', 'Aero Deck;Textuell;Panorama;Do While'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5908,7 +5908,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in "The Railway Series"?',
-'LB&amp;SCR A1X', 'LB&amp;SCR A1X;LB&amp;SCR E2;LB&amp;SCR J1;LB&amp;SCR D1'
+'LB&SCR A1X', 'LB&SCR A1X;LB&SCR E2;LB&SCR J1;LB&SCR D1'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -6260,7 +6260,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which of the following snipers has the highest amount of confirmed kills?',
-'Simo H&auml;yh&auml;', 'Simo H&auml;yh&auml;;Chris Kyle;Vasily Zaytsev;Craig Harrison'
+'Simo Hayha', 'Simo Hayha;Chris Kyle;Vasily Zaytsev;Craig Harrison'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -6540,7 +6540,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'In Call of Duty: United Offensive, what two soldiers share a name of a video game character?',
-'Gordon &amp; Freeman', 'Gordon &amp; Freeman;Sam &amp; Fisher;Nathan &amp; Drake;Dig &amp; Dug'
+'Gordon & Freeman', 'Gordon & Freeman;Sam & Fisher;Nathan & Drake;Dig & Dug'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -6668,7 +6668,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in "The Railway Series"?',
-'LB&amp;SCR A1X', 'LB&amp;SCR A1X;LB&amp;SCR E2;LB&amp;SCR J1;LB&amp;SCR D1'
+'LB&SCR A1X', 'LB&SCR A1X;LB&SCR E2;LB&SCR J1;LB&SCR D1'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -6908,7 +6908,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'What is the German word for "spoon"?',
-'L&ouml;ffel', 'L&ouml;ffel;Gabel;Messer;Essst&auml;bchen'
+'Loffel', 'Loffel;Gabel;Messer;Essstabchen'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -7163,7 +7163,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What Pok&émon''s Base Stat Total does not change when it evolves?',
+'What Pokémon''s Base Stat Total does not change when it evolves?',
 'Scyther', 'Scyther;Pikachu;Sneasel;Larvesta'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7235,7 +7235,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which artist&rsquo;s studio was known as ''The Factory''?',
+'Which artist""s studio was known as ''The Factory''?',
 'Andy Warhol', 'Andy Warhol;Roy Lichtenstein;David Hockney;Peter Blake'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7339,7 +7339,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What year did the Boxing Day earthquake &amp; tsunami occur in the Indian Ocean?',
+'What year did the Boxing Day earthquake & tsunami occur in the Indian Ocean?',
 '2004', '2004;2006;2008;2002'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7363,7 +7363,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of these is NOT the name of a team leader in Pok&émon GO?',
+'Which of these is NOT the name of a team leader in Pokémon GO?',
 'Leif', 'Leif;Blanche;Spark;Candela'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7476,7 +7476,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'In the television show "Lazy Town", who is the actor of Robbie Rotten?',
-'Stefán Stefánsson', 'Stefán Stefánsson;Adam Sandler;Magn&uacute;s Scheving;Stephen Carl'
+'Stefán Stefánsson', 'Stefán Stefánsson;Adam Sandler;Magnús Scheving;Stephen Carl'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -7620,7 +7620,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'What is the fastest  land animal?',
-'Cheetah', 'Cheetah;Lion;Thomson&rsquo;s Gazelle;Pronghorn Antelope'
+'Cheetah', 'Cheetah;Lion;Thomson""s Gazelle;Pronghorn Antelope'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -7747,7 +7747,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who is the leader of Team Mystic in Pok&émon Go?',
+'Who is the leader of Team Mystic in Pokémon Go?',
 'Blanche', 'Blanche;Candela;Spark;Willow'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
