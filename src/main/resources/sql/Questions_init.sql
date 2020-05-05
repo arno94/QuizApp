@@ -20,7 +20,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'What is the name of your team in Star Wars: Republic Commando?',
-'Delta Squad', 'Delta Squad;The Commandos;Bravo Six;Vader&#039;s Fist'
+'Delta Squad', 'Delta Squad;The Commandos;Bravo Six;Vader''s Fist'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -35,7 +35,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?',
+'Who wrote the 1967 horror novel "Rosemary''s Baby"?',
 'Ira Levin', 'Ira Levin;Stephen King;Robert Bloch;Mary Shelley'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -51,7 +51,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'&quot;Typewriter&quot; is the longest word that can be typed using only the first row on a QWERTY keyboard.',
+'"Typewriter" is the longest word that can be typed using only the first row on a QWERTY keyboard.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -83,7 +83,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Before 2011, &quot;True Capitalist Radio&quot; was known by a different name. What was that name?',
+'Before 2011, "True Capitalist Radio" was known by a different name. What was that name?',
 'True Conservative Radio', 'True Conservative Radio;True Republican Radio;Texan Capitalist Radio;United Capitalists'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -107,7 +107,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'This movie contains the quote, &quot;What we&#039;ve got here is a failure to communicate.&quot;',
+'This movie contains the quote, "What we''ve got here is a failure to communicate."',
 'Cool Hand Luke', 'Cool Hand Luke;Bonnie and Clyde;The Graduate;In the Heat of the Night'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -132,7 +132,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'In the anime Initial D, how does Takumi Fujiwara describe a drift?',
-'&#039;. . . the front tires slide so the car won&#039;t face the inside&#039;', '&#039;. . . the front tires slide so the car won&#039;t face the inside&#039;;&#039;. . . the wheels lose traction, making the car slide sideways&#039;;&#039;. . . the car oversteers through a curve, causing it to turn faster&#039;;&#039;. . . you turn a lot&#039;'
+'''. . . the front tires slide so the car won''t face the inside''', '''. . . the front tires slide so the car won''t face the inside'';''. . . the wheels lose traction, making the car slide sideways'';''. . . the car oversteers through a curve, causing it to turn faster'';''. . . you turn a lot'''
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -147,7 +147,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of the Artificial Intelligence system in the 1983 film, &quot;WarGames&quot;?',
+'What is the name of the Artificial Intelligence system in the 1983 film, "WarGames"?',
 'War Operation Plan Response', 'War Operation Plan Response;Self Evolving Thought Helix;Master Control Program;West Campus Analog Computer'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -171,15 +171,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Highschool of the Dead&quot;, where did Komuro and Saeko establish to meet after the bus explosion?',
-'Eastern Police Station', 'Eastern Police Station;The Center Mall;Komuro&#039;s House;On The Main Bridge'
+'In "Highschool of the Dead", where did Komuro and Saeko establish to meet after the bus explosion?',
+'Eastern Police Station', 'Eastern Police Station;The Center Mall;Komuro''s House;On The Main Bridge'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'EASY',
-'In &quot;Avatar: The Last Airbender&quot;, which element does Aang begin to learn after being defrosted?',
+'In "Avatar: The Last Airbender", which element does Aang begin to learn after being defrosted?',
 'Water', 'Water;Air;Earth;Fire'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -187,7 +187,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the show Stranger Things, what is Eleven&#039;s favorite breakfast food?',
+'In the show Stranger Things, what is Eleven''s favorite breakfast food?',
 'Eggo Waffles', 'Eggo Waffles;Toast;Captain Crunch;Bacon and Eggs'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -212,7 +212,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'The Touhou Project series of games is often associated with which genre?',
-'Shoot &#039;em up', 'Shoot &#039;em up;Strategy;FPS;Casual'
+'Shoot ''em up', 'Shoot ''em up;Strategy;FPS;Casual'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -251,7 +251,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'&quot;Yes, America Can!&quot; was this United States politician&#039;s de facto campaign slogan in 2004.',
+'"Yes, America Can!" was this United States politician''s de facto campaign slogan in 2004.',
 'George W. Bush', 'George W. Bush;John Kerry;Barack Obama;Al Gore'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -283,7 +283,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?',
+'"Gimmick!" is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?',
 'FME-7', 'FME-7;VRC7;VRC6;MMC5'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -307,15 +307,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the Portuguese word for &quot;Brazil&quot;?',
-'Brasil', 'Brasil;Brazil;Brasilia;Bras&iacute;l'
+'What is the Portuguese word for "Brazil"?',
+'Brasil', 'Brasil;Brazil;Brasilia;Brasíl'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?',
+'Who is the main protagonist of "Ace Combat Zero: The Belkan War"?',
 'Cipher', 'Cipher;Mobius 1;Blaze;Pixy'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -331,7 +331,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the &quot;To Love-Ru&quot; series, Peke is considered a female robot.',
+'In the "To Love-Ru" series, Peke is considered a female robot.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -339,7 +339,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Spoon theory is a theory, utilizing &quot;Spoons&quot; as a metaphor for energy they can use in a day.',
+'Spoon theory is a theory, utilizing "Spoons" as a metaphor for energy they can use in a day.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -371,7 +371,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the &quot;Pikmin&quot; games, which of the following pikmin colors lacks it&#039;s own &quot;Onion&quot; nest?',
+'In the "Pikmin" games, which of the following pikmin colors lacks it''s own "Onion" nest?',
 'Purple', 'Purple;Winged;Blue;Rock'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -379,7 +379,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which King of England was faced with the Peasants&#039; Revolt in 1381?',
+'Which King of England was faced with the Peasants'' Revolt in 1381?',
 'Richard II', 'Richard II;Edward III;Edward II;Henry IV'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -387,7 +387,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the MMO RPG &quot;Realm of the Mad God&quot;, what class is known for having the highest possible defense?',
+'In the MMO RPG "Realm of the Mad God", what class is known for having the highest possible defense?',
 'The Knight', 'The Knight;The Wizard;The Archer;The Warrior'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -395,7 +395,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the name of Manchester United&#039;s home stadium?',
+'What is the name of Manchester United''s home stadium?',
 'Old Trafford', 'Old Trafford;Anfield;City of Manchester Stadium;St James Park'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -403,7 +403,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Electronic music producer Kygo&#039;s popularity skyrocketed after a certain remix. Which song did he remix?',
+'Electronic music producer Kygo''s popularity skyrocketed after a certain remix. Which song did he remix?',
 'Ed Sheeran - I See Fire', 'Ed Sheeran - I See Fire;Marvin Gaye - Sexual Healing;Coldplay - Midnight;a-ha - Take On Me'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -419,7 +419,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the 1984 movie &quot;The Terminator&quot;, what model number is the Terminator portrayed by Arnold Schwarzenegger?',
+'In the 1984 movie "The Terminator", what model number is the Terminator portrayed by Arnold Schwarzenegger?',
 'T-800', 'T-800;I-950;T-888;T-1000'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -451,7 +451,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the real name of &quot;moot&quot;, founder of the imageboard 4chan?',
+'What is the real name of "moot", founder of the imageboard 4chan?',
 'Christopher Poole', 'Christopher Poole;Mark Zuckerberg;Allison Harvard;Catie Wayne'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -467,7 +467,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which country has the international vehicle registration letter &#039;A&#039;?',
+'Which country has the international vehicle registration letter ''A''?',
 'Austria', 'Austria;Afghanistan;Australia;Armenia'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -475,7 +475,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which country had an &quot;Orange Revolution&quot; between 2004 and 2005?',
+'Which country had an "Orange Revolution" between 2004 and 2005?',
 'Ukraine', 'Ukraine;Belarus;Latvia;Lithuania'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -483,7 +483,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?',
+'The derisive acronym "PIIGS" refers to which of the following European countries and their economic statuses?',
 'Portugal, Ireland, Italy, Greece, Spain', 'Portugal, Ireland, Italy, Greece, Spain;Poland, Iceland, Italy, Greece, Serbia;Poland, Iceland, Italy, Greenland, Spain;Portugal, Iceland, Ireland, Greece, Serbia'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -507,7 +507,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the 2002 video game &quot;Kingdom Hearts&quot;, how many Keyblades are usable?',
+'In the 2002 video game "Kingdom Hearts", how many Keyblades are usable?',
 '18', '18;13;16;15'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -515,7 +515,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The stop motion comedy show &quot;Robot Chicken&quot; was created by which of the following?',
+'The stop motion comedy show "Robot Chicken" was created by which of the following?',
 'Seth Green', 'Seth Green;Seth MacFarlane;Seth Rogen;Seth Rollins'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -523,7 +523,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the 1979 British film &quot;Quadrophenia&quot; what is the name of the main protagonist?',
+'In the 1979 British film "Quadrophenia" what is the name of the main protagonist?',
 'Jimmy Cooper', 'Jimmy Cooper;Pete Townshend;Franc Roddam;Archie Bunker'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -531,7 +531,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The 1939 movie &quot;The Wizard of Oz&quot; contained a horse that changed color, what material did they use to achieve this effect?',
+'The 1939 movie "The Wizard of Oz" contained a horse that changed color, what material did they use to achieve this effect?',
 'Gelatin', 'Gelatin;Dye;Paint;CGI Effect'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -539,7 +539,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'TF2: The Heavy&#039;s voice actor, Gary Schwartz, voices the Demoman as well ',
+'TF2: The Heavy''s voice actor, Gary Schwartz, voices the Demoman as well ',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -555,7 +555,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Touhou: Embodiment of Scarlet Devil, what song plays during Flandre Scarlet&#039;s boss fight?',
+'In Touhou: Embodiment of Scarlet Devil, what song plays during Flandre Scarlet''s boss fight?',
 'U.N. Owen Was Her', 'U.N. Owen Was Her;Septette for the Dead Princess;Flowering Night;Pierrot of the Star-Spangled Banner'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -571,7 +571,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The song &quot;Stronger Than You&quot; is a single by Estelle, who played Garnet in Steven Universe.',
+'The song "Stronger Than You" is a single by Estelle, who played Garnet in Steven Universe.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -587,7 +587,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What does &quot;LCD&quot; stand for?',
+'What does "LCD" stand for?',
 'Liquid Crystal Display', 'Liquid Crystal Display;Language Control Design;Last Common Difference;Long Continuous Design'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -611,7 +611,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is known as &quot;the brain&quot; of the Computer?',
+'What is known as "the brain" of the Computer?',
 'Central Processing Unit', 'Central Processing Unit;Motherboard;Graphics Processing Unit;Keyboard'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -627,7 +627,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Scatman John&#039;s real name was John Paul Larkin.',
+'Scatman John''s real name was John Paul Larkin.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -635,15 +635,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;One Piece&quot;, who confirms the existence of the legendary treasure, One Piece?',
-'Edward &quot;Whitebeard&quot; Newgate', 'Edward &quot;Whitebeard&quot; Newgate;Former Marine Fleet Admiral Sengoku;Pirate King Gol D Roger;Silvers Rayleigh'
+'In "One Piece", who confirms the existence of the legendary treasure, One Piece?',
+'Edward "Whitebeard" Newgate', 'Edward "Whitebeard" Newgate;Former Marine Fleet Admiral Sengoku;Pirate King Gol D Roger;Silvers Rayleigh'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'&quot;Santa Claus&quot; is a variety of melon.',
+'"Santa Claus" is a variety of melon.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -651,7 +651,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, where is &quot;Stamin-Up&quot; located?',
+'In the "Call Of Duty: Zombies" map "Origins", where is "Stamin-Up" located?',
 'Generator 5', 'Generator 5;Generator 3;Generator 4;Excavation Site'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -659,7 +659,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Call of Duty: Black Ops III&quot; Zombies, what does completing all the main easter eggs reward you with?',
+'In "Call of Duty: Black Ops III" Zombies, what does completing all the main easter eggs reward you with?',
 '1,000,000 XP', '1,000,000 XP;Juggernog at the start of each game;50 Liquid Diviniums;All three options.'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -667,7 +667,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of these characters live in a pineapple under the sea in the cartoon &quot;SpongeBob SquarePants&quot;.',
+'Which of these characters live in a pineapple under the sea in the cartoon "SpongeBob SquarePants".',
 'SpongeBob SquarePants ', 'SpongeBob SquarePants ;Patrick Star;Squidward Tentacles;Mr. Krabs'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -675,7 +675,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In which mall does &quot;Dead Rising&quot; take place?',
+'In which mall does "Dead Rising" take place?',
 'Willamette Parkview Mall', 'Willamette Parkview Mall;Liberty Mall;Twin Pines Mall;Central Square Shopping Center'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -691,7 +691,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who is &quot;James Rolfe&quot; better known as?',
+'Who is "James Rolfe" better known as?',
 'The Angry Video Game Nerd', 'The Angry Video Game Nerd;TotalBiscuit;PeanutButterGamer;PewDiePie'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -707,7 +707,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of these words means &quot;idle spectator&quot;?',
+'Which of these words means "idle spectator"?',
 'Gongoozler', 'Gongoozler;Gossypiboma;Jentacular;Meupareunia'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -715,7 +715,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which company&#039;s original slogan was &quot;Don&#039;t be evil&quot;?',
+'Which company''s original slogan was "Don''t be evil"?',
 'Google', 'Google;Apple;Yahoo;Microsoft'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -723,7 +723,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the name of the main protagonist in &quot;Xenoblade Chronicles&quot;?',
+'What is the name of the main protagonist in "Xenoblade Chronicles"?',
 'Shulk', 'Shulk;Reyn;Fiora;Dunban'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -731,7 +731,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What is the plane of existence in MicroProse&#039;s 1997 &quot;Magic the Gathering&quot;?',
+'What is the plane of existence in MicroProse''s 1997 "Magic the Gathering"?',
 'Shandalar', 'Shandalar;Theros;Ravnica;Amonkhet'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -739,7 +739,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the &quot;S.T.A.L.K.E.R.&quot; series, which of these items can&#039;t be used to lower the player&#039;s accumulated radiation?',
+'In the "S.T.A.L.K.E.R." series, which of these items can''t be used to lower the player''s accumulated radiation?',
 'Radioprotectant', 'Radioprotectant;Anti-rad;Medkit;Vodka'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -779,7 +779,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the show &quot;Fat Albert and the Cosby Kids&quot;, what is the name of the characters&#039; fictional gang?',
+'In the show "Fat Albert and the Cosby Kids", what is the name of the characters'' fictional gang?',
 'The Junkyard Gang', 'The Junkyard Gang;The Trash Troupe;The Scrapyard Seven;The Rotten Posse'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -795,7 +795,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'The term &quot;GTO&quot; was originated by Ferrari?',
+'The term "GTO" was originated by Ferrari?',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -804,7 +804,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'In any programming language, what is the most common way to iterate through an array?',
-'&#039;For&#039; loops', '&#039;For&#039; loops;&#039;If&#039; Statements;&#039;Do-while&#039; loops;&#039;While&#039; loops'
+'''For'' loops', '''For'' loops;''If'' Statements;''Do-while'' loops;''While'' loops'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -827,7 +827,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'&quot;Some people call me the space cowboy&quot; is the first line from what song?',
+'"Some people call me the space cowboy" is the first line from what song?',
 'The Joker', 'The Joker;Fandango;Take The Money and Run;Fly Like an Eagle'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -843,7 +843,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the &quot;powerhouse&quot; of the Eukaryotic animal cell?',
+'What is the "powerhouse" of the Eukaryotic animal cell?',
 'Mitochondria', 'Mitochondria;Nucleus;Chloroplast;Endoplasmic Reticulum'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -867,7 +867,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who wrote the children&#039;s story &quot;The Little Match Girl&quot;?',
+'Who wrote the children''s story "The Little Match Girl"?',
 'Hans Christian Andersen', 'Hans Christian Andersen;Charles Dickens;Lewis Carroll;Oscar Wilde'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -883,7 +883,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Excluding their instructor, how many members of Class VII are there in the game &quot;Legend of Heroes: Trails of Cold Steel&quot;?',
+'Excluding their instructor, how many members of Class VII are there in the game "Legend of Heroes: Trails of Cold Steel"?',
 '9', '9;6;10;3'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -899,7 +899,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Pok&eacute;mon Go is a location-based augmented reality game developed and published by which company?',
+'Pok&émon Go is a location-based augmented reality game developed and published by which company?',
 'Niantic', 'Niantic;Rovio;Zynga;Supercell'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -915,7 +915,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the fighting game &quot;Skullgirls,&quot; which character utilizes a folding chair called the &quot;Hurting&quot; as a weapon?',
+'In the fighting game "Skullgirls," which character utilizes a folding chair called the "Hurting" as a weapon?',
 'Beowulf', 'Beowulf;Big Band;Squigly;Cerebella'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -923,7 +923,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What year was the Disney film &quot;A Goofy Movie&quot; released?',
+'What year was the Disney film "A Goofy Movie" released?',
 '1995', '1995;1999;2001;1997'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -955,7 +955,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who co-founded the YouTube Let&#039;s Play channel &quot;Game Grumps&quot; alongside Newgrounds animator Egoraptor?',
+'Who co-founded the YouTube Let''s Play channel "Game Grumps" alongside Newgrounds animator Egoraptor?',
 'JonTron', 'JonTron;Pewdiepie;Tobuscus;Markiplier'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -979,7 +979,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Touhou: Embodiment of Scarlet Devil, what song plays during Flandre Scarlet&#039;s boss fight?',
+'In Touhou: Embodiment of Scarlet Devil, what song plays during Flandre Scarlet''s boss fight?',
 'U.N. Owen Was Her', 'U.N. Owen Was Her;Septette for the Dead Princess;Flowering Night;Pierrot of the Star-Spangled Banner'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1036,7 +1036,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?',
-'Yo-kai Watch', 'Yo-kai Watch;Pok&eacute;mon;Yu-gi-oh;Buddyfight'
+'Yo-kai Watch', 'Yo-kai Watch;Pok&émon;Yu-gi-oh;Buddyfight'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1052,14 +1052,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'What is the capital of Seychelles?',
-'Victoria', 'Victoria;Luanda;N&#039;Djamena;Tripoli'
+'Victoria', 'Victoria;Luanda;N''Djamena;Tripoli'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'What year did the James Cameron film &quot;Titanic&quot; come out in theaters?',
+'What year did the James Cameron film "Titanic" come out in theaters?',
 '1997', '1997;1996;1998;1999'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1075,7 +1075,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of the following names is the &quot;Mega Man&quot; Franchise known as in Japan?',
+'Which of the following names is the "Mega Man" Franchise known as in Japan?',
 'Rockman', 'Rockman;Paperman;Scissorsman;Mega Man'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1107,7 +1107,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;JoJo&#039;s Bizarre Adventure&quot;, Father Enrico Pucchi uses a total of 3 stands in Part 6: Stone Ocean.',
+'In "JoJo''s Bizarre Adventure", Father Enrico Pucchi uses a total of 3 stands in Part 6: Stone Ocean.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1115,7 +1115,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Rick and Morty&quot;, from which dimension do Rick and Morty originate from?',
+'In "Rick and Morty", from which dimension do Rick and Morty originate from?',
 'C-137', 'C-137;J1977;C-136;C500-a'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1123,7 +1123,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, where is &quot;Stamin-Up&quot; located?',
+'In the "Call Of Duty: Zombies" map "Origins", where is "Stamin-Up" located?',
 'Generator 5', 'Generator 5;Generator 3;Generator 4;Excavation Site'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1131,7 +1131,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What episode of &quot;Mr. Bean&quot; saw him trying to prevent people from seeing him naked?',
+'What episode of "Mr. Bean" saw him trying to prevent people from seeing him naked?',
 'Mr. Bean in Room 426', 'Mr. Bean in Room 426;Mr. Bean Goes to Town;The Trouble with Mr. Bean;Back to School Mr. Bean'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1147,7 +1147,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What mythology did the god &quot;Apollo&quot; come from?',
+'What mythology did the god "Apollo" come from?',
 'Greek and Roman', 'Greek and Roman;Roman and Spanish;Greek and Chinese;Greek, Roman and Norse'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1171,8 +1171,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Need for Speed III: Hot Pursuit&quot;, what is the name of the fictional car?',
-'El Ni&ntilde;o', 'El Ni&ntilde;o;R&aacute;pido;&Aacute;gil;La Ni&ntilde;a'
+'In "Need for Speed III: Hot Pursuit", what is the name of the fictional car?',
+'El Nino', 'El Nino;Rápido;&Aacute;gil;La Nina'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1235,7 +1235,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'America&#039;s Strategic Defense System during the Cold War was nicknamed after this famous movie.',
+'America''s Strategic Defense System during the Cold War was nicknamed after this famous movie.',
 'Star Wars', 'Star Wars;Jaws;Blade Runner;Alien'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1315,7 +1315,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The word &quot;Inception&quot; came from the 2010 blockbuster hit &quot;Inception&quot;.',
+'The word "Inception" came from the 2010 blockbuster hit "Inception".',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1331,7 +1331,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What year was the Disney film &quot;A Goofy Movie&quot; released?',
+'What year was the Disney film "A Goofy Movie" released?',
 '1995', '1995;1999;2001;1997'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1339,7 +1339,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of Sid&#039;s dog in &quot;Toy Story&quot;?',
+'What is the name of Sid''s dog in "Toy Story"?',
 'Scud', 'Scud;Buster;Whiskers;Mr. Jones'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1372,14 +1372,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'In the year 1818, novelist Mary Shelly is credited with writing a fiction novel and creating this infamous character.',
-'Frankenstein&#039;s monster', 'Frankenstein&#039;s monster;Dracula;The Thing;The Invisible Man'
+'Frankenstein''s monster', 'Frankenstein''s monster;Dracula;The Thing;The Invisible Man'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'HARD',
-'Throughout the entirety of &quot;Dragon Ball Z&quot;, Goku only kills two characters: a miniboss named Yakon and Kid Buu.',
+'Throughout the entirety of "Dragon Ball Z", Goku only kills two characters: a miniboss named Yakon and Kid Buu.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1403,7 +1403,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the game &quot;Terraria&quot;, which of these bosses are pre-hardmode bosses?',
+'In the game "Terraria", which of these bosses are pre-hardmode bosses?',
 'Eye of Cthulhu', 'Eye of Cthulhu;Plantera;Skeletron Prime;The Destroyer'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1411,7 +1411,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What was Radiohead&#039;s first album?',
+'What was Radiohead''s first album?',
 'Pablo Honey', 'Pablo Honey;The Bends;Kid A;A Moon Shaped Pool'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1427,8 +1427,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'&quot;All the Boys&quot; by Panic! At the Disco was released as a bonus track on what album?',
-'Too Weird To Live, Too Rare To Die!', 'Too Weird To Live, Too Rare To Die!;A Fever You Can&#039;t Sweat Out;Death Of A Bachelor;Vices &amp; Virtues'
+'"All the Boys" by Panic! At the Disco was released as a bonus track on what album?',
+'Too Weird To Live, Too Rare To Die!', 'Too Weird To Live, Too Rare To Die!;A Fever You Can''t Sweat Out;Death Of A Bachelor;Vices &amp; Virtues'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1443,7 +1443,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the title of the game &quot;Luigi&#039;s Mansion&quot;, what is the only letter to not appear with a pair of eyes in it?',
+'In the title of the game "Luigi''s Mansion", what is the only letter to not appear with a pair of eyes in it?',
 's', 's;n;i;m'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1459,7 +1459,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Medaka Kurokami from &quot;Medaka Box&quot; has what abnormality?',
+'Medaka Kurokami from "Medaka Box" has what abnormality?',
 'The End', 'The End;Perfection;Sandbox;Fairness'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1467,7 +1467,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which monster in &quot;Monster Hunter Tri&quot; was causing earthquakes in Moga Village?',
+'Which monster in "Monster Hunter Tri" was causing earthquakes in Moga Village?',
 'Ceadeus', 'Ceadeus;Alatreon;Rathalos;Lagiacrus'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1475,7 +1475,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Sean Bean voices the character of &quot;Martin Septim&quot; in which Elder Scrolls game?',
+'Sean Bean voices the character of "Martin Septim" in which Elder Scrolls game?',
 'The Elder Scrolls IV: Oblivion', 'The Elder Scrolls IV: Oblivion;The Elder Scrolls V: Skyrim;The Elder Scrolls III: Morrowind ;The Elder Scrolls Online'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1483,7 +1483,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;To Love-Ru: Darkness&quot;, which of the girls attempt making a harem for Rito Yuuki?',
+'In "To Love-Ru: Darkness", which of the girls attempt making a harem for Rito Yuuki?',
 'Momo Deviluke', 'Momo Deviluke;Yami (Golden Darkness);Haruna Sairenji;Mea Kurosaki'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1491,7 +1491,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What is the 4th boss in the 1997 video game &quot;Crash Bandicoot 2: Cortex Strikes Back&quot;?',
+'What is the 4th boss in the 1997 video game "Crash Bandicoot 2: Cortex Strikes Back"?',
 'Dr. N. Gin', 'Dr. N. Gin;Dr. Neo Cortex;Komodo Brothers;Tiny Tiger'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1507,7 +1507,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;The Witness&quot;, how many lasers must be activated to get into the mountain area?',
+'In "The Witness", how many lasers must be activated to get into the mountain area?',
 '7', '7;8;5;12'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1515,7 +1515,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In which manga did the &quot;404 Girl&quot; from 4chan originate from?',
+'In which manga did the "404 Girl" from 4chan originate from?',
 'Yotsuba&amp;!', 'Yotsuba&amp;!;Azumanga Daioh;Lucky Star;Clover'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1531,7 +1531,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which stage was planned to be a part of &quot;Sonic the Hedgehog 2&quot;, but was scrapped during development?',
+'Which stage was planned to be a part of "Sonic the Hedgehog 2", but was scrapped during development?',
 'Genocide City Zone', 'Genocide City Zone;Stardust Speedway Zone;Sky High Zone ;Clockwork Zone'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1555,7 +1555,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which Aerosmith album featured &quot;Walk This Way&quot;?',
+'Which Aerosmith album featured "Walk This Way"?',
 'Toys in the Attic', 'Toys in the Attic;Rocks;Get Your Wings;Draw the Line'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1571,7 +1571,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who performed the opening theme song for the James Bond 007 movie &quot;Goldfinger&quot;?',
+'Who performed the opening theme song for the James Bond 007 movie "Goldfinger"?',
 'Shirley Basey', 'Shirley Basey;Tom Jones;John Barry;Sheena Easton'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1587,7 +1587,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the indie farming game &quot;Stardew Valley&quot;, which NPC hates the &quot;prismatic shard&quot; item when received as a gift?',
+'In the indie farming game "Stardew Valley", which NPC hates the "prismatic shard" item when received as a gift?',
 'Haley', 'Haley;Abigail ;Elliott;Lewis'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1611,7 +1611,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who had a US and UK number 1 hit in 1962 with the instrumental, &#039;Telstar&#039;?',
+'Who had a US and UK number 1 hit in 1962 with the instrumental, ''Telstar''?',
 'The Tornados', 'The Tornados;The Ventures;The Spotnicks;The Tremeloes'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1627,7 +1627,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is Pikachu&#039;s National Pok&eacute;Dex Number?',
+'What is Pikachu''s National Pok&éDex Number?',
 '#025', '#025;#001;#031;#109'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1643,7 +1643,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who wrote the novel &#039;Fear And Loathing In Las Vegas&#039;?',
+'Who wrote the novel ''Fear And Loathing In Las Vegas''?',
 'Hunter S. Thompson', 'Hunter S. Thompson;F. Scott Fitzgerald;Henry Miller;William S. Burroughs'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1651,7 +1651,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Before 2011, &quot;True Capitalist Radio&quot; was known by a different name. What was that name?',
+'Before 2011, "True Capitalist Radio" was known by a different name. What was that name?',
 'True Conservative Radio', 'True Conservative Radio;True Republican Radio;Texan Capitalist Radio;United Capitalists'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1667,7 +1667,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Donald J. Trump&#039;s Middle Name is...',
+'Donald J. Trump''s Middle Name is...',
 'John', 'John;Jeff;Jerald;Jason'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1755,7 +1755,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Capcom&#039;s survival horror title Dead Rising, canonically starts on what day of September 2006?',
+'Capcom''s survival horror title Dead Rising, canonically starts on what day of September 2006?',
 'September 19th', 'September 19th;September 21st;September 30th;September 14th'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1771,7 +1771,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who co-founded the YouTube Let&#039;s Play channel &quot;Game Grumps&quot; alongside Newgrounds animator Egoraptor?',
+'Who co-founded the YouTube Let''s Play channel "Game Grumps" alongside Newgrounds animator Egoraptor?',
 'JonTron', 'JonTron;Pewdiepie;Tobuscus;Markiplier'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1811,7 +1811,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Hitman: Blood Money, what is the name of the target in the mission &quot;Death of a Showman&quot;?',
+'In Hitman: Blood Money, what is the name of the target in the mission "Death of a Showman"?',
 'Joseph Clarence', 'Joseph Clarence;The Swing King;Maynard John;Manuel Delgado'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1827,7 +1827,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'For his performance at ComplexCon 2016 in Long Beach, California, Skrillex revived his &quot;Mothership&quot; set piece for one night only.',
+'For his performance at ComplexCon 2016 in Long Beach, California, Skrillex revived his "Mothership" set piece for one night only.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1868,7 +1868,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'Who is the lead singer of Green Day?',
-'Billie Joe Armstrong', 'Billie Joe Armstrong;Mike Dirnt;Sean Hughes;Tr&eacute; Cool'
+'Billie Joe Armstrong', 'Billie Joe Armstrong;Mike Dirnt;Sean Hughes;Tr&é Cool'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1883,7 +1883,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of the following names is the &quot;Mega Man&quot; Franchise known as in Japan?',
+'Which of the following names is the "Mega Man" Franchise known as in Japan?',
 'Rockman', 'Rockman;Paperman;Scissorsman;Mega Man'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1891,8 +1891,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What was Mountain Dew&#039;s original slogan?',
-'Yahoo! Mountain Dew... It&#039;ll tickle your innards!', 'Yahoo! Mountain Dew... It&#039;ll tickle your innards!;Give Me A Dew;Do The Dew;Get&#039; that barefoot feelin&#039; drinkin&#039; Mountain Dew'
+'What was Mountain Dew''s original slogan?',
+'Yahoo! Mountain Dew... It''ll tickle your innards!', 'Yahoo! Mountain Dew... It''ll tickle your innards!;Give Me A Dew;Do The Dew;Get'' that barefoot feelin'' drinkin'' Mountain Dew'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -1907,7 +1907,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the &quot;Harry Potter&quot; novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?',
+'In the "Harry Potter" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?',
 'Answer a riddle', 'Answer a riddle;Rhythmically tap barrels with a wand;Speak a password;Knock in sequence'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1915,7 +1915,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'When Donkey Kong died in the &quot;Donkey Kong Country&quot; episode &quot;It&#039;s a Wonderful Life&quot;, who was his guardian angel?',
+'When Donkey Kong died in the "Donkey Kong Country" episode "It''s a Wonderful Life", who was his guardian angel?',
 'Eddie the Mean Old Yeti', 'Eddie the Mean Old Yeti;Kiddy Kong;Diddy Kong;King K. Rool'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1923,7 +1923,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which character from the Mega Man series made a small cameo on Volt Catfish&#039;s introduction scene in CD versions of Mega Man X3?',
+'Which character from the Mega Man series made a small cameo on Volt Catfish''s introduction scene in CD versions of Mega Man X3?',
 'Auto', 'Auto;Eddie;Tango;Rush'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1947,7 +1947,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Sean Bean voices the character of &quot;Martin Septim&quot; in which Elder Scrolls game?',
+'Sean Bean voices the character of "Martin Septim" in which Elder Scrolls game?',
 'The Elder Scrolls IV: Oblivion', 'The Elder Scrolls IV: Oblivion;The Elder Scrolls V: Skyrim;The Elder Scrolls III: Morrowind ;The Elder Scrolls Online'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1955,7 +1955,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'&quot;Return to Castle Wolfenstein&quot; was the only game of the Wolfenstein series where you don&#039;t play as William &quot;B.J.&quot; Blazkowicz.',
+'"Return to Castle Wolfenstein" was the only game of the Wolfenstein series where you don''t play as William "B.J." Blazkowicz.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1963,7 +1963,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which animation studio produced the anime adaptation of &quot;xxxHolic&quot;?',
+'Which animation studio produced the anime adaptation of "xxxHolic"?',
 'Production I.G', 'Production I.G;Sunrise;Xebec;Kyoto Animation'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1979,7 +1979,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who performed the opening theme song for the James Bond 007 movie &quot;Goldfinger&quot;?',
+'Who performed the opening theme song for the James Bond 007 movie "Goldfinger"?',
 'Shirley Basey', 'Shirley Basey;Tom Jones;John Barry;Sheena Easton'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1987,7 +1987,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the closest planet to our solar system&#039;s sun?',
+'What is the closest planet to our solar system''s sun?',
 'Mercury', 'Mercury;Mars;Jupiter;Earth'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -1995,7 +1995,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'When was &quot;Luigi&#039;s Mansion 3&quot; released?',
+'When was "Luigi''s Mansion 3" released?',
 'October 31st, 2019', 'October 31st, 2019;January 13th, 2019;September 6th, 2018;October 1st, 2019'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2051,7 +2051,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The music video to The Buggle&#039;s &quot;Video Killed the Radio Star&quot; was the first music video to broadcast on MTV.',
+'The music video to The Buggle''s "Video Killed the Radio Star" was the first music video to broadcast on MTV.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2059,7 +2059,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What are the first 6 digits of the number &quot;Pi&quot;?',
+'What are the first 6 digits of the number "Pi"?',
 '3.14159', '3.14159;3.14169;3.12423;3.25812'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2067,7 +2067,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who is the Pink Floyd song &quot;Shine On You Crazy Diamond&quot; written about?',
+'Who is the Pink Floyd song "Shine On You Crazy Diamond" written about?',
 'Syd Barrett', 'Syd Barrett;John Lennon;David Gilmour;Floyd'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2091,7 +2091,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In &quot;Undertale&quot;, how many main endings are there?',
+'In "Undertale", how many main endings are there?',
 '3', '3;2;5;13'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2131,7 +2131,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the 2002 video game &quot;Kingdom Hearts&quot;, how many playable worlds were there?',
+'In the 2002 video game "Kingdom Hearts", how many playable worlds were there?',
 '14', '14;13;16;11'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2139,7 +2139,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The term &quot;scientist&quot; was coined in which year?',
+'The term "scientist" was coined in which year?',
 '1833', '1833;1933;1942;1796'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2147,7 +2147,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the beta version of the 1986 game &quot;The Legend of Zelda&quot;, players have the choice between a sword and what other item?',
+'In the beta version of the 1986 game "The Legend of Zelda", players have the choice between a sword and what other item?',
 'Boomerang ', 'Boomerang ;Spear;Slingshot;Crossbow'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2155,7 +2155,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Capcom&#039;s survival horror title Dead Rising, canonically starts on what day of September 2006?',
+'Capcom''s survival horror title Dead Rising, canonically starts on what day of September 2006?',
 'September 19th', 'September 19th;September 21st;September 30th;September 14th'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2163,7 +2163,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who is the main character in the show &quot;Burn Notice&quot;?',
+'Who is the main character in the show "Burn Notice"?',
 'Michael Westen', 'Michael Westen;Sam Axe;Fiona Glenanne;Madeline Westen'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2187,7 +2187,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The alternative rock band, They Might Be Giants, released their album &#039;Flood&#039; in 1990. ',
+'The alternative rock band, They Might Be Giants, released their album ''Flood'' in 1990. ',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2195,7 +2195,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'&quot;HTML&quot; stands for Hypertext Markup Language.',
+'"HTML" stands for Hypertext Markup Language.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2235,7 +2235,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of the General Mills Corporation&#039;s monster cereals was the last to be released in the 1970&#039;s?',
+'Which of the General Mills Corporation''s monster cereals was the last to be released in the 1970''s?',
 'Fruit Brute', 'Fruit Brute;Count Chocula;Franken Berry;Boo-Berry'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2243,7 +2243,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'During development of &quot;Super Mario World&quot;, Yoshi&#039;s hard saddle was originally which of these?',
+'During development of "Super Mario World", Yoshi''s hard saddle was originally which of these?',
 'A shell', 'A shell;A slide of Gelatin;A poffin;A spike'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2251,7 +2251,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What year did &quot;Attack on Titan&quot; Season 2 begin airing?',
+'What year did "Attack on Titan" Season 2 begin airing?',
 '2017', '2017;2018;2019;2020'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2275,7 +2275,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which race enjoys a glass of warm baghol in &quot;Star Trek&quot;?',
+'Which race enjoys a glass of warm baghol in "Star Trek"?',
 'Klingon', 'Klingon;Vulcan;Human;Botha'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2299,7 +2299,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In what year did Clint Eastwood star as Inspector Harry Callahan in the film &quot;Dirty Harry&quot;?',
+'In what year did Clint Eastwood star as Inspector Harry Callahan in the film "Dirty Harry"?',
 '1971', '1971;1975;1983;1969'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2307,7 +2307,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Call Of Duty: Zombies&quot;, which map&#039;s opening cutscene shows &quot;Richtofen&quot; killing another version of himself?',
+'In "Call Of Duty: Zombies", which map''s opening cutscene shows "Richtofen" killing another version of himself?',
 'The Giant', 'The Giant;Shadows Of Evil;Der Eisendrache;Moon'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2315,15 +2315,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What three movies, in order from release date, make up the &quot;Dollars Trilogy&quot;?',
-'&quot;A Fistful of Dollars&quot;, &quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;', '&quot;A Fistful of Dollars&quot;, &quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;;&quot;The Good, the Bad, and the Ugly&quot;, &quot;For A Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;;&quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;, &quot;A Fistful of Dollars&quot;;&quot;For a Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;, &quot;The Good, the Bad, and the Ugly&quot;'
+'What three movies, in order from release date, make up the "Dollars Trilogy"?',
+'"A Fistful of Dollars", "For a Few Dollars More", "The Good, the Bad, and the Ugly"', '"A Fistful of Dollars", "For a Few Dollars More", "The Good, the Bad, and the Ugly";"The Good, the Bad, and the Ugly", "For A Few Dollars More", "A Fistful of Dollars";"For a Few Dollars More", "The Good, the Bad, and the Ugly", "A Fistful of Dollars";"For a Few Dollars More", "A Fistful of Dollars", "The Good, the Bad, and the Ugly"'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'EASY',
-'What animation studio produced &quot;Gurren Lagann&quot;?',
+'What animation studio produced "Gurren Lagann"?',
 'Gainax', 'Gainax;Kyoto Animation;Pierrot;A-1 Pictures'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2331,7 +2331,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the name of Sonic the Hedgehog&#039;s original human girlfriend?',
+'What was the name of Sonic the Hedgehog''s original human girlfriend?',
 'Madonna', 'Madonna;Celeste;Sierra;Nina'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2339,7 +2339,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Where does &quot;The Legend of Zelda: Majora&#039;s Mask&quot; take place?',
+'Where does "The Legend of Zelda: Majora''s Mask" take place?',
 'Termina', 'Termina;Hyrule;Gysahl;Besaid'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2371,7 +2371,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the name of Jonny&#039;s pet dog in The Adventures of Jonny Quest?',
+'What was the name of Jonny''s pet dog in The Adventures of Jonny Quest?',
 'Bandit', 'Bandit;Lucky;Rocky;Max'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2379,7 +2379,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'A Facebook campaign placed Rage Against The Machine&#039;s &quot;Killing in the Name Of&quot; as the UK Christmas Number 1 in 2009.',
+'A Facebook campaign placed Rage Against The Machine''s "Killing in the Name Of" as the UK Christmas Number 1 in 2009.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2395,7 +2395,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?',
+'Which American manufactured submachine gun was informally known by the American soldiers that used it as "Grease Gun"?',
 'M3', 'M3;Colt 9mm;Thompson;MAC-10'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2411,7 +2411,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Electronic music producer Kygo&#039;s popularity skyrocketed after a certain remix. Which song did he remix?',
+'Electronic music producer Kygo''s popularity skyrocketed after a certain remix. Which song did he remix?',
 'Ed Sheeran - I See Fire', 'Ed Sheeran - I See Fire;Marvin Gaye - Sexual Healing;Coldplay - Midnight;a-ha - Take On Me'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2435,7 +2435,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What was Marilyn Monroe`s character&#039;s first name in the film &quot;Some Like It Hot&quot;?',
+'What was Marilyn Monroe`s character''s first name in the film "Some Like It Hot"?',
 'Sugar', 'Sugar;Honey;Caramel;Candy'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2467,7 +2467,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...',
+'Moore''s law originally stated that the number of transistors on a microprocessor chip would double every...',
 'Year', 'Year;Four Years;Two Years;Eight Years'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2507,7 +2507,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Irish musician Hozier released a music track in 2013 titled, &quot;Take Me to ______&quot;',
+'Irish musician Hozier released a music track in 2013 titled, "Take Me to ______"',
 'Church', 'Church;Mosque;Synagogue;Temple'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2515,7 +2515,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'When was &quot;YouTube&quot; founded?',
+'When was "YouTube" founded?',
 'February 14, 2005', 'February 14, 2005;May 22, 2004;September 12, 2005;July 19, 2009'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2531,7 +2531,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Finish these lyrics from the 2016 song &quot;Panda&quot; by Desiigner: &quot;I got broads in _______&quot;.',
+'Finish these lyrics from the 2016 song "Panda" by Desiigner: "I got broads in _______".',
 'Atlanta', 'Atlanta;Savannah;Augusta;Marietta'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2547,7 +2547,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In which order do you need to hit some Deku Scrubs to open the first boss door in &quot;Ocarina of Time&quot;?',
+'In which order do you need to hit some Deku Scrubs to open the first boss door in "Ocarina of Time"?',
 '2, 3, 1', '2, 3, 1;1, 2, 3;1, 3, 2;2, 1, 3'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2555,7 +2555,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of these actors/actresses is NOT a part of the cast for the 2016 movie &quot;Suicide Squad&quot;?',
+'Which of these actors/actresses is NOT a part of the cast for the 2016 movie "Suicide Squad"?',
 'Scarlett Johansson', 'Scarlett Johansson;Jared Leto;Will Smith;Margot Robbie'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2571,7 +2571,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What do the 4 Rings in Audi&#039;s Logo represent?',
+'What do the 4 Rings in Audi''s Logo represent?',
 'Previously independent automobile manufacturers', 'Previously independent automobile manufacturers;States in which Audi makes the most sales;Main cities vital to Audi;Countries in which Audi makes the most sales'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2587,7 +2587,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'&quot;Mongolia&quot; was a part of the now non-existent U.S.S.R.',
+'"Mongolia" was a part of the now non-existent U.S.S.R.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2603,7 +2603,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Throughout the entirety of &quot;Dragon Ball Z&quot;, Goku only kills two characters: a miniboss named Yakon and Kid Buu.',
+'Throughout the entirety of "Dragon Ball Z", Goku only kills two characters: a miniboss named Yakon and Kid Buu.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2611,7 +2611,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of these songs does NOT play during the Ruins segments of the 2015 game &quot;Undertale&quot;?',
+'Which of these songs does NOT play during the Ruins segments of the 2015 game "Undertale"?',
 'Another Medium', 'Another Medium;Anticipation;Unnecessary Tension;Ruins'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2619,7 +2619,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In World of Warcraft lore, which of the following is known as the God of Spiders in the troll&#039;s loa beliefs?',
+'In World of Warcraft lore, which of the following is known as the God of Spiders in the troll''s loa beliefs?',
 'Elortha no Shadra', 'Elortha no Shadra;Bwonsamdi;Hakkar;Shirvallah'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2627,7 +2627,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which soccer team won the Copa Am&eacute;rica 2015 Championship ?',
+'Which soccer team won the Copa Am&érica 2015 Championship ?',
 'Chile', 'Chile;Argentina;Brazil;Paraguay'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2636,7 +2636,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which franchise had a special event hosted in the popular MMORPG Final Fantasy XIV: A Realm Reborn?',
-'Yo-kai Watch', 'Yo-kai Watch;Pok&eacute;mon;Yu-gi-oh;Buddyfight'
+'Yo-kai Watch', 'Yo-kai Watch;Pok&émon;Yu-gi-oh;Buddyfight'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -2691,7 +2691,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which classical composer wrote the &quot;Moonlight Sonata&quot;?',
+'Which classical composer wrote the "Moonlight Sonata"?',
 'Ludvig Van Beethoven', 'Ludvig Van Beethoven;Chief Keef;Wolfgang Amadeus Mozart;Johannes Brahms'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2699,7 +2699,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What breed of dog is &quot;Scooby Doo&quot;?',
+'What breed of dog is "Scooby Doo"?',
 'Great Dane', 'Great Dane;Pit bull;Boxer;Doberman Pinscher'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2707,7 +2707,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'&quot;Santa Claus&quot; is a variety of melon.',
+'"Santa Claus" is a variety of melon.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2715,7 +2715,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the first &quot;Call Of Duty: Zombies&quot; map to be directed by Jason Blundell?',
+'What was the first "Call Of Duty: Zombies" map to be directed by Jason Blundell?',
 'Mob Of The Dead', 'Mob Of The Dead;Buried;Origins;Moon'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2723,7 +2723,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the beginning of the game &quot;Sonic Adventure&quot;, what color Chaos Emerald does Tails own?',
+'In the beginning of the game "Sonic Adventure", what color Chaos Emerald does Tails own?',
 'Purple', 'Purple;Red;Green;Blue'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2747,7 +2747,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What was Bruce Campbell&#039;s iconic one-liner after getting a chainsaw hand in Evil Dead 2?',
+'What was Bruce Campbell''s iconic one-liner after getting a chainsaw hand in Evil Dead 2?',
 'Groovy.', 'Groovy.;Gnarly.;Perfect.;Nice.'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2779,7 +2779,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the 1969 Cartoon show &quot;Dastardly and Muttley in Their Flying Machines&quot;, which were NOT one of the lyrics in the opening theme?',
+'In the 1969 Cartoon show "Dastardly and Muttley in Their Flying Machines", which were NOT one of the lyrics in the opening theme?',
 'Stab him', 'Stab him;Nab him;Jab him;Tab him'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2787,7 +2787,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The 1985 Toyota Corolla &quot;AE86&quot; was the hero car for what anime? ',
+'The 1985 Toyota Corolla "AE86" was the hero car for what anime? ',
 'Initial D', 'Initial D;Wangan Midnight;Ghost MF;Ex Driver'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2795,7 +2795,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Resident Evil 3&quot;, how many inventory slots does Jill have at the start of the game?',
+'In "Resident Evil 3", how many inventory slots does Jill have at the start of the game?',
 '10', '10;6;8;12'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2803,7 +2803,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'The retail disc of Tony Hawk&#039;s Pro Skater 5 only comes with the tutorial.',
+'The retail disc of Tony Hawk''s Pro Skater 5 only comes with the tutorial.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2827,7 +2827,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The very first recorded computer &quot;bug&quot; was a moth found inside a Harvard Mark II computer.',
+'The very first recorded computer "bug" was a moth found inside a Harvard Mark II computer.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2843,7 +2843,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who is the Pink Floyd song &quot;Shine On You Crazy Diamond&quot; written about?',
+'Who is the Pink Floyd song "Shine On You Crazy Diamond" written about?',
 'Syd Barrett', 'Syd Barrett;John Lennon;David Gilmour;Floyd'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2859,7 +2859,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who is the main character in &quot;The Stanley Parable&quot;?',
+'Who is the main character in "The Stanley Parable"?',
 'Stanley', 'Stanley;The Adventure Line;The Narrator;The Boss'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2868,7 +2868,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'Which video game was recalled for containing a hidden, playable South Park episode?',
-'Tiger Woods 99 PGA Tour', 'Tiger Woods 99 PGA Tour;Tony Hawk&#039;s Pro Skater 3;Sonic Adventure;Madden 99'
+'Tiger Woods 99 PGA Tour', 'Tiger Woods 99 PGA Tour;Tony Hawk''s Pro Skater 3;Sonic Adventure;Madden 99'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -2883,7 +2883,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which one of the following actors did not voice a character in &quot;Saints Row: The Third&quot;?',
+'Which one of the following actors did not voice a character in "Saints Row: The Third"?',
 'Ron Jeremy', 'Ron Jeremy;Sasha Grey;Burt Reynolds;Hulk Hogan'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2907,7 +2907,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Tony Hawk&#039;s Pro Skater was released in 1999.',
+'Tony Hawk''s Pro Skater was released in 1999.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2915,7 +2915,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What was the name of Ross&#039; pet monkey on &quot;Friends&quot;?',
+'What was the name of Ross'' pet monkey on "Friends"?',
 'Marcel', 'Marcel;Jojo;George;Champ'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2940,14 +2940,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which game was the first time Mario was voiced by Charles Martinet?',
-'Mario&#039;s Game Gallery', 'Mario&#039;s Game Gallery;Super Mario 64;Mario Tennis;Dr. Mario 64'
+'Mario''s Game Gallery', 'Mario''s Game Gallery;Super Mario 64;Mario Tennis;Dr. Mario 64'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'HARD',
-'What is the name of Broadway&#039;s first &quot;long-run&quot; musical?',
+'What is the name of Broadway''s first "long-run" musical?',
 'The Elves', 'The Elves;Wicked;Hamilton;The Book of Mormon'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2964,14 +2964,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which one of these films are shot entirely in one-take?',
-'Russian Ark', 'Russian Ark;Good Will Hunting;Birdman;Schindler&#039;s List'
+'Russian Ark', 'Russian Ark;Good Will Hunting;Birdman;Schindler''s List'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'EASY',
-'In Mean Girls, who has breasts that tell when it&#039;s raining?',
+'In Mean Girls, who has breasts that tell when it''s raining?',
 'Karen Smith', 'Karen Smith;Gretchen Weiners;Janice Ian;Cady Heron'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2979,7 +2979,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which musical artist was NOT featured as playable avatars in the game &quot;DJ Hero&quot;?',
+'Which musical artist was NOT featured as playable avatars in the game "DJ Hero"?',
 'Dr. Dre', 'Dr. Dre;DJ Shadow;Daft Punk;Grandmaster Flash'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -2995,8 +2995,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which one of these songs did the group &quot;Men At Work&quot; NOT make?',
-'Safety Dance', 'Safety Dance;Down Under;Who Can It Be Now?;It&#039;s a Mistake'
+'Which one of these songs did the group "Men At Work" NOT make?',
+'Safety Dance', 'Safety Dance;Down Under;Who Can It Be Now?;It''s a Mistake'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3044,14 +3044,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Who authored The Adventures of Tintin?',
-'Herg&eacute;', 'Herg&eacute;;E.P. Jacobs;Rin Tin Tin;Chic Young'
+'Herg&é', 'Herg&é;E.P. Jacobs;Rin Tin Tin;Chic Young'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'What was the name of Marilyn Monroe&#039;s first husband?',
+'What was the name of Marilyn Monroe''s first husband?',
 'James Dougherty', 'James Dougherty;Joe Dimaggio;Kirk Douglas;Arthur Miller'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3083,7 +3083,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which one of these characters is from &quot;Legendz : Tale of the Dragon Kings&quot;?',
+'Which one of these characters is from "Legendz : Tale of the Dragon Kings"?',
 'Shiron', 'Shiron;Jack;Axia;Drum'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3091,7 +3091,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the show &quot;Foster&#039;s Home For Imaginary Friends&quot;, which character had an obsession with basketball?',
+'In the show "Foster''s Home For Imaginary Friends", which character had an obsession with basketball?',
 'Wilt', 'Wilt;Coco;Mac;Cheese'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3099,7 +3099,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'When did the online streaming service &quot;Mixer&quot; launch?',
+'When did the online streaming service "Mixer" launch?',
 '2016', '2016;2013;2009;2011'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3107,7 +3107,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of the first level in &quot;Call of Duty: World at War&quot;?',
+'What is the name of the first level in "Call of Duty: World at War"?',
 'Semper Fi', 'Semper Fi;Ring of Steel;Vendetta;Eviction'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3115,7 +3115,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;To Love-Ru: Darkness&quot;, Yami reveals her real name is Eve.',
+'In "To Love-Ru: Darkness", Yami reveals her real name is Eve.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3131,7 +3131,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who directed the movie &quot;Alien&quot;?',
+'Who directed the movie "Alien"?',
 'Ridley Scott', 'Ridley Scott;Christopher Nolan;Michael Bay;James Cameron'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3163,7 +3163,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which actor plays the character &quot;Tommy Jarvis&quot; in &quot;Friday the 13th: The Final Chapter&quot; (1984)?',
+'Which actor plays the character "Tommy Jarvis" in "Friday the 13th: The Final Chapter" (1984)?',
 'Corey Feldman', 'Corey Feldman;Macaulay Culkin;Mel Gibson;Mark Hamill'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3171,7 +3171,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the scientific term for &#039;taste&#039;?',
+'What is the scientific term for ''taste''?',
 'Gustatory Perception', 'Gustatory Perception;Olfaction;Somatosensation;Auditory Perception'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3187,7 +3187,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'&quot;Doctor Jones&quot;, &quot;Turn Back Time&quot; and &quot;Barbie Girl&quot; were UK number ones for which Eurodance group?',
+'"Doctor Jones", "Turn Back Time" and "Barbie Girl" were UK number ones for which Eurodance group?',
 'Aqua', 'Aqua;Vengaboys;Eiffel 65;Sash!'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3196,14 +3196,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'What song originally performed by The Bee Gees in 1978 had a cover version by Steps 20 years later?',
-'Tragedy', 'Tragedy;Night Fever;Stayin&#039; Alive;You Should Be Dancing'
+'Tragedy', 'Tragedy;Night Fever;Stayin'' Alive;You Should Be Dancing'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'EASY',
-'What&#039;s the name of the main protagonist in the &quot;Legend of Zelda&quot; franchise?',
+'What''s the name of the main protagonist in the "Legend of Zelda" franchise?',
 'Link', 'Link;Mario;Zelda;Pit'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3211,7 +3211,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who had hits in the 70s with the songs &quot;Lonely Boy&quot; and &quot;Never Let Her Slip Away&quot;?',
+'Who had hits in the 70s with the songs "Lonely Boy" and "Never Let Her Slip Away"?',
 'Andrew Gold', 'Andrew Gold;Elton John;Leo Sayer;Barry White '
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3219,7 +3219,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which German sportswear company&#039;s logo is the &#039;Formstripe&#039;?',
+'Which German sportswear company''s logo is the ''Formstripe''?',
 'Puma', 'Puma;Nike;Adidas;Reebok'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3235,7 +3235,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What is the name of the virus that infected New York in Tom Clancy&#039;s The Division?',
+'What is the name of the virus that infected New York in Tom Clancy''s The Division?',
 'Dollar Flu', 'Dollar Flu;Ebola;Red Poison;Smallpox'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3267,7 +3267,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is Doug Walker&#039;s YouTube name?',
+'What is Doug Walker''s YouTube name?',
 'The Nostalgia Critic', 'The Nostalgia Critic;The Angry Video Game Nerd;AngryJoeShow;The Cinema Snob'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3308,14 +3308,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'Which video game was recalled for containing a hidden, playable South Park episode?',
-'Tiger Woods 99 PGA Tour', 'Tiger Woods 99 PGA Tour;Tony Hawk&#039;s Pro Skater 3;Sonic Adventure;Madden 99'
+'Tiger Woods 99 PGA Tour', 'Tiger Woods 99 PGA Tour;Tony Hawk''s Pro Skater 3;Sonic Adventure;Madden 99'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'EASY',
-'Bill Cipher in the show &quot;Gravity Falls&quot; is the good guy.',
+'Bill Cipher in the show "Gravity Falls" is the good guy.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3355,8 +3355,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What&#039;s the name of the halloween-related Sims 4 Stuff Pack released September 29th, 2015?',
-'Spooky Stuff', 'Spooky Stuff;Ghosts n&#039; Ghouls;Nerving Nights;Fearful Frights'
+'What''s the name of the halloween-related Sims 4 Stuff Pack released September 29th, 2015?',
+'Spooky Stuff', 'Spooky Stuff;Ghosts n'' Ghouls;Nerving Nights;Fearful Frights'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3395,7 +3395,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the periodic table, Potassium&#039;s symbol is the letter K.',
+'In the periodic table, Potassium''s symbol is the letter K.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3419,7 +3419,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'During development of &quot;Super Mario World&quot;, Yoshi&#039;s hard saddle was originally which of these?',
+'During development of "Super Mario World", Yoshi''s hard saddle was originally which of these?',
 'A shell', 'A shell;A slide of Gelatin;A poffin;A spike'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3427,7 +3427,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The song &quot;Caramelldansen&quot; is commonly mistaken as a Japanese song, what language is the song actually sung in?',
+'The song "Caramelldansen" is commonly mistaken as a Japanese song, what language is the song actually sung in?',
 'Swedish', 'Swedish;Hungarian;Finnish;Chinese'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3435,7 +3435,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'How many seasons did the TV show &quot;Donkey Kong Country&quot; last?',
+'How many seasons did the TV show "Donkey Kong Country" last?',
 '2', '2;1;4;5'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3443,7 +3443,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What was studio Trigger&#039;s first original long-form animated series for television?',
+'What was studio Trigger''s first original long-form animated series for television?',
 'Kill la Kill', 'Kill la Kill;Kiznaiver;Inferno Cop;Gurren Lagann'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3475,7 +3475,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Overwatch&quot;, how much health does Roadhog&#039;s &quot;Take a Breather&quot; ability recover?',
+'In "Overwatch", how much health does Roadhog''s "Take a Breather" ability recover?',
 '300', '300;100;200;400'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3491,7 +3491,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Call Of Duty: World At War&quot;, the first appearance of the &quot;PPSH-41&quot; in &quot;Zombies&quot; was in the map &quot;Der Riese&quot;.',
+'In "Call Of Duty: World At War", the first appearance of the "PPSH-41" in "Zombies" was in the map "Der Riese".',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3499,7 +3499,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of the following was not one of Joseph Stalin&#039;s ten blows during World War II?',
+'Which of the following was not one of Joseph Stalin''s ten blows during World War II?',
 'Vistula-Oder Offensive', 'Vistula-Oder Offensive;Crimean Offensive;Leningrad-Novgorod Offensive;Operation Bagration'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3523,7 +3523,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Black Lagoon&quot;, what colour is Rock&#039;s tie?',
+'In "Black Lagoon", what colour is Rock''s tie?',
 'Teal', 'Teal;Crimson;Dark Brown;Black'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3547,7 +3547,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which former Coronation Street actress was once a hostess on the British Game Show &quot;Double Your Money&quot;?',
+'Which former Coronation Street actress was once a hostess on the British Game Show "Double Your Money"?',
 'Amanda Barrie', 'Amanda Barrie;Sue Nicholls;Violet Carson;Jean Alexander'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3555,7 +3555,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the 1969 Cartoon show &quot;Dastardly and Muttley in Their Flying Machines&quot;, which were NOT one of the lyrics in the opening theme?',
+'In the 1969 Cartoon show "Dastardly and Muttley in Their Flying Machines", which were NOT one of the lyrics in the opening theme?',
 'Stab him', 'Stab him;Nab him;Jab him;Tab him'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3563,7 +3563,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Townsend Coleman provided the voice for which turtle in the original 1987 series of &quot;Teenage Mutant Ninja Turtles&quot;?',
+'Townsend Coleman provided the voice for which turtle in the original 1987 series of "Teenage Mutant Ninja Turtles"?',
 'Michelangelo', 'Michelangelo;Leonardo;Donatello;Raphael'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3571,7 +3571,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Rick Astley&#039;s hit song &quot;Never Gonna Give You Up&quot; was released in what year?',
+'Rick Astley''s hit song "Never Gonna Give You Up" was released in what year?',
 '1987', '1987;1985;1986;1988'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3627,7 +3627,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of Jontron&#039;s parrot?',
+'What is the name of Jontron''s parrot?',
 'Jacques', 'Jacques;Jak;John;Jaques'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3659,7 +3659,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of the currency in the &quot;Animal Crossing&quot; series?',
+'What is the name of the currency in the "Animal Crossing" series?',
 'Bells', 'Bells;Sea Shells;Leaves;Bugs'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3667,7 +3667,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In which British seaside town was the BBC sitcom &quot;Fawlty Towers&quot; set?',
+'In which British seaside town was the BBC sitcom "Fawlty Towers" set?',
 'Torquay', 'Torquay;Blackpool;Bournemouth;Great Yarmouth'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3683,7 +3683,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;',
+'This movie contains the quote, "I feel the need ... the need for speed!"',
 'Top Gun', 'Top Gun;Days of Thunder;The Color of Money;Cocktail'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3715,7 +3715,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of these is NOT a team available in the game Pok&eacute;mon Go?',
+'Which of these is NOT a team available in the game Pok&émon Go?',
 'Team Rocket', 'Team Rocket;Team Instinct;Team Valor;Team Mystic'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3747,7 +3747,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Overwatch,&quot; an allied McCree will say &quot;Step right up&quot; upon using his ultimate ability Deadeye.',
+'In "Overwatch," an allied McCree will say "Step right up" upon using his ultimate ability Deadeye.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3763,7 +3763,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'How long was the World Record Speed Run of Valve Software&#039;s &quot;Half-Life&quot; that was done in 2014.',
+'How long was the World Record Speed Run of Valve Software''s "Half-Life" that was done in 2014.',
 '20 Minutes, 41 Seconds', '20 Minutes, 41 Seconds;45 Minutes, 32 Seconds;5 Minutes, 50 Seconds;12 Minutes, 59 Seconds'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3771,7 +3771,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What is the Gray Wolf&#039;s scientific name?',
+'What is the Gray Wolf''s scientific name?',
 'Canis Lupus', 'Canis Lupus;Canis Aureus;Canis Latrans;Canis Lupus Lycaon'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3803,7 +3803,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In Pok&eacute;mon, Ash&#039;s Pikachu refuses to go into a pokeball.',
+'In Pok&émon, Ash''s Pikachu refuses to go into a pokeball.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3819,7 +3819,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the video game &quot;Team Fortress 2&quot;, which class is able to double jump?',
+'In the video game "Team Fortress 2", which class is able to double jump?',
 'Scout', 'Scout;Spy;Engineer;Pyro'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3835,7 +3835,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the game &quot;Terraria&quot;, which of these bosses are pre-hardmode bosses?',
+'In the game "Terraria", which of these bosses are pre-hardmode bosses?',
 'Eye of Cthulhu', 'Eye of Cthulhu;Plantera;Skeletron Prime;The Destroyer'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3843,7 +3843,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the periodic table, Potassium&#039;s symbol is the letter K.',
+'In the periodic table, Potassium''s symbol is the letter K.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3891,7 +3891,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the name of the world that the MMO &quot;RuneScape&quot; takes place in?',
+'What is the name of the world that the MMO "RuneScape" takes place in?',
 'Gielinor', 'Gielinor;Glindor;Azeroth;Zaros'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3908,7 +3908,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'Which of these in the Star Trek series is NOT Klingon food?',
-'Hors d&#039;oeuvre', 'Hors d&#039;oeuvre;Racht;Gagh;Bloodwine'
+'Hors d''oeuvre', 'Hors d''oeuvre;Racht;Gagh;Bloodwine'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -3931,7 +3931,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of these voices wasn&#039;t a choice for the House AI in &quot;The Simpsons Treehouse of Horror&quot; short, House of Whacks?',
+'Which of these voices wasn''t a choice for the House AI in "The Simpsons Treehouse of Horror" short, House of Whacks?',
 'George Clooney', 'George Clooney;Matthew Perry;Dennis Miller;Pierce Brosnan'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3947,7 +3947,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What was the release date of &quot;Grand Theft Auto IV&quot;?',
+'What was the release date of "Grand Theft Auto IV"?',
 'April 29, 2008', 'April 29, 2008;May 21, 2009;June 22, 2010;July 28, 2008'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3955,7 +3955,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the 2011 TV anime series, &quot;THE iDOLM@STER&quot;, what was the name of Iori&#039;s stuffed toy bunny?',
+'In the 2011 TV anime series, "THE iDOLM@STER", what was the name of Iori''s stuffed toy bunny?',
 'Charles', 'Charles;Bubsy;Kero;Usagi'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -3995,7 +3995,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'The character Plum from &quot;No Game No Life&quot; is a girl.',
+'The character Plum from "No Game No Life" is a girl.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4003,7 +4003,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The main character in the &quot;Half-Life&quot; franchise is named Morgan Freeman.',
+'The main character in the "Half-Life" franchise is named Morgan Freeman.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4035,7 +4035,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Nvidia&#039;s headquarters are based in which Silicon Valley city?',
+'Nvidia''s headquarters are based in which Silicon Valley city?',
 'Santa Clara', 'Santa Clara;Palo Alto;Cupertino;Mountain View'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4044,14 +4044,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'The following Spanish provinces are located in the northern area of Spain except:',
-'Murcia', 'Murcia;Asturias;Navarre;Le&oacute;n'
+'Murcia', 'Murcia;Asturias;Navarre;León'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Assyrian king Sennacherib&#039;s destruction of Babylon in 689 BCE was viewed as a triumph by other Assyrian citizens.',
+'Assyrian king Sennacherib''s destruction of Babylon in 689 BCE was viewed as a triumph by other Assyrian citizens.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4083,7 +4083,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the name of the planet in &quot;Aliens&quot;?',
+'What was the name of the planet in "Aliens"?',
 'LV-426', 'LV-426;Weyland Yutani Corporation Base;FR-838;DI-621'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4091,8 +4091,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Highschool of the Dead&quot;, where did Komuro and Saeko establish to meet after the bus explosion?',
-'Eastern Police Station', 'Eastern Police Station;The Center Mall;Komuro&#039;s House;On The Main Bridge'
+'In "Highschool of the Dead", where did Komuro and Saeko establish to meet after the bus explosion?',
+'Eastern Police Station', 'Eastern Police Station;The Center Mall;Komuro''s House;On The Main Bridge'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4115,7 +4115,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What year was &quot;JoJo&#039;s Bizarre Adventure: Phantom Blood&quot; first released?',
+'What year was "JoJo''s Bizarre Adventure: Phantom Blood" first released?',
 '1987', '1987;2013;1983;1995'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4123,7 +4123,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the 1979 British film &quot;Quadrophenia&quot; what is the name of the seaside city the mods are visiting?',
+'In the 1979 British film "Quadrophenia" what is the name of the seaside city the mods are visiting?',
 'Brighton', 'Brighton;Eastbourne;Mousehole;Bridlington'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4139,7 +4139,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who created the Cartoon Network series &quot;Adventure Time&quot;?',
+'Who created the Cartoon Network series "Adventure Time"?',
 'Pendleton Ward', 'Pendleton Ward;J. G. Quintel;Ben Bocquelet;Rebecca Sugar'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4203,7 +4203,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is Grumpy Cat&#039;s real name?',
+'What is Grumpy Cat''s real name?',
 'Tardar Sauce', 'Tardar Sauce;Sauce;Minnie;Broccoli'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4219,7 +4219,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the surname of the character Daryl in AMC&#039;s show The Walking Dead?',
+'What is the surname of the character Daryl in AMC''s show The Walking Dead?',
 'Dixon', 'Dixon;Grimes;Dickinson;Dicketson'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4235,7 +4235,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of the &quot;Flash&quot; and &quot;Arrow&quot; spinoff featuring a team of characters that have appeared on both shows?',
+'What is the name of the "Flash" and "Arrow" spinoff featuring a team of characters that have appeared on both shows?',
 'Legends of Tomorrow', 'Legends of Tomorrow;Heroes of Tomorrow;The Justice Society of America;The Justice Society'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4243,7 +4243,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the 2012 animated film &quot;Wolf Children&quot;, what are the names of the wolf children?',
+'In the 2012 animated film "Wolf Children", what are the names of the wolf children?',
 'Ame &amp; Yuki', 'Ame &amp; Yuki;Hana &amp; Yuki;Ame &amp; Hana;Chuck &amp; Anna'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4251,7 +4251,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?',
+'"Gimmick!" is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?',
 'FME-7', 'FME-7;VRC7;VRC6;MMC5'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4275,7 +4275,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Final Fantasy VI&quot;, what is the name of (summoned) Gilgamesh&#039;s weakest attack?',
+'In "Final Fantasy VI", what is the name of (summoned) Gilgamesh''s weakest attack?',
 'Excalipoor', 'Excalipoor;Excalibore;Excalisnore;Excalisore'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4283,7 +4283,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;JoJo&#039;s Bizarre Adventure&quot;, Father Enrico Pucchi uses a total of 3 stands in Part 6: Stone Ocean.',
+'In "JoJo''s Bizarre Adventure", Father Enrico Pucchi uses a total of 3 stands in Part 6: Stone Ocean.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4291,7 +4291,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Toriko&quot;, which of the following foods is knowingly compatible with Toriko?',
+'In "Toriko", which of the following foods is knowingly compatible with Toriko?',
 'Poison Potato', 'Poison Potato;Mors Oil;Alpacookie;Parmesansho Fruit'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4315,7 +4315,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the game &quot;Red Dead Redemption&quot;, what is the name of John Marston&#039;s dog?',
+'In the game "Red Dead Redemption", what is the name of John Marston''s dog?',
 'Rufus', 'Rufus;Rutus;Finn;Apollo'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4331,7 +4331,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Call of Duty: Black Ops III&quot; Zombies, what does completing all the main easter eggs reward you with?',
+'In "Call of Duty: Black Ops III" Zombies, what does completing all the main easter eggs reward you with?',
 '1,000,000 XP', '1,000,000 XP;Juggernog at the start of each game;50 Liquid Diviniums;All three options.'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4339,7 +4339,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'The &quot;To Love-Ru&quot; Manga was started in what year?',
+'The "To Love-Ru" Manga was started in what year?',
 '2006', '2006;2007;2004;2005'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4355,7 +4355,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the &quot;Portal&quot; series, who was Cave Johnson&#039;s personal assistant?',
+'In the "Portal" series, who was Cave Johnson''s personal assistant?',
 'Caroline', 'Caroline;Heather;Melissa;Jane'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4363,7 +4363,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which author co-wrote &quot;The Communist Manifesto&quot; alongside Karl Marx?',
+'Which author co-wrote "The Communist Manifesto" alongside Karl Marx?',
 'Friedrich Engels', 'Friedrich Engels;Robert Owen;Alexander Kerensky;Paul Lafargue'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4371,7 +4371,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which American manufactured submachine gun was informally known by the American soldiers that used it as &quot;Grease Gun&quot;?',
+'Which American manufactured submachine gun was informally known by the American soldiers that used it as "Grease Gun"?',
 'M3', 'M3;Colt 9mm;Thompson;MAC-10'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4387,7 +4387,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;PUBATTLEGROUNDS&quot; what is the name of the Military Base island?',
+'In "PUBATTLEGROUNDS" what is the name of the Military Base island?',
 'Sosnovka', 'Sosnovka;Novorepnoye;Mylta;Yasnaya'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4435,7 +4435,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the Super Mario Bros. Series, what is Yoshi&#039;s scientific name?',
+'In the Super Mario Bros. Series, what is Yoshi''s scientific name?',
 'T. Yoshisaur Munchakoopas', 'T. Yoshisaur Munchakoopas;Yoshi;T. Yoshisotop Munchakoopas;Yossy'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4460,14 +4460,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'EASY',
 'How would one say goodbye in Spanish?',
-'Adi&oacute;s', 'Adi&oacute;s; Hola;Au Revoir;Salir'
+'Adiós', 'Adiós; Hola;Au Revoir;Salir'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Who played Batman in the 1997 film &quot;Batman and Robin&quot;?',
+'Who played Batman in the 1997 film "Batman and Robin"?',
 'George Clooney', 'George Clooney;Michael Keaton;Val Kilmer;Christian Bale'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4475,7 +4475,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;',
+'This movie contains the quote, "I feel the need ... the need for speed!"',
 'Top Gun', 'Top Gun;Days of Thunder;The Color of Money;Cocktail'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4483,7 +4483,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who wrote the children&#039;s story &quot;The Little Match Girl&quot;?',
+'Who wrote the children''s story "The Little Match Girl"?',
 'Hans Christian Andersen', 'Hans Christian Andersen;Charles Dickens;Lewis Carroll;Oscar Wilde'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4523,7 +4523,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of the popular animatronic singing fish prop, singing such hits such as &quot;Don&#039;t Worry, Be Happy&quot;?',
+'What is the name of the popular animatronic singing fish prop, singing such hits such as "Don''t Worry, Be Happy"?',
 'Big Mouth Billy Bass', 'Big Mouth Billy Bass;Big Billy Bass;Singing Fish;Sardeen'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4531,8 +4531,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What type of genre is the controversial 2015 game &quot;Hatred&quot;?',
-'Shoot &#039;Em Up', 'Shoot &#039;Em Up;Point &amp; Click;MMORPG;Simulation'
+'What type of genre is the controversial 2015 game "Hatred"?',
+'Shoot ''Em Up', 'Shoot ''Em Up;Point &amp; Click;MMORPG;Simulation'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4555,7 +4555,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In Sonic the Hedgehog universe, Tails&#039; real name is Miles Prower.',
+'In Sonic the Hedgehog universe, Tails'' real name is Miles Prower.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4579,7 +4579,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What year was Red Hot Chill Pepper&#039;s album &quot;Californication&quot; released?',
+'What year was Red Hot Chill Pepper''s album "Californication" released?',
 '1999', '1999;1997;2000;1992'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4603,15 +4603,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which artist&#039;s style was to use small different colored dots to create a picture?',
-'Georges Seurat', 'Georges Seurat;Paul C&eacute;zanne;Vincent Van Gogh;Henri Rousseau'
+'Which artist''s style was to use small different colored dots to create a picture?',
+'Georges Seurat', 'Georges Seurat;Paul C&ézanne;Vincent Van Gogh;Henri Rousseau'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'EASY',
-'Who performed &quot;I Took A Pill In Ibiza&quot;?',
+'Who performed "I Took A Pill In Ibiza"?',
 'Mike Posner', 'Mike Posner;Avicii;Robbie Williams;Harry Styles'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4619,8 +4619,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The cake depicted in Valve&#039;s &quot;Portal&quot; franchise most closely resembles which real-world type of cake?',
-'Black Forest', 'Black Forest;Devil&#039;s Food;Molten Chocolate;German Chocolate'
+'The cake depicted in Valve''s "Portal" franchise most closely resembles which real-world type of cake?',
+'Black Forest', 'Black Forest;Devil''s Food;Molten Chocolate;German Chocolate'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4635,7 +4635,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which one of these characters is from &quot;Legendz : Tale of the Dragon Kings&quot;?',
+'Which one of these characters is from "Legendz : Tale of the Dragon Kings"?',
 'Shiron', 'Shiron;Jack;Axia;Drum'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4651,7 +4651,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which person from &quot;JoJo&#039;s Bizarre Adventure&quot; does NOT house a reference to a band, artist, or song earlier than 1980?',
+'Which person from "JoJo''s Bizarre Adventure" does NOT house a reference to a band, artist, or song earlier than 1980?',
 'Giorno Giovanna', 'Giorno Giovanna;Josuke Higashikata;Jolyne Cujoh;Johnny Joestar'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4667,7 +4667,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Call Of Duty: Zombies&quot;, completing which map&#039;s easter egg will reward you with the achievement, &quot;Time Travel Will Tell&quot;?',
+'In "Call Of Duty: Zombies", completing which map''s easter egg will reward you with the achievement, "Time Travel Will Tell"?',
 'Shangri-La', 'Shangri-La;Ascension;Moon;Die Rise'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4675,7 +4675,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Call Of Duty: Zombies&quot;, you can upgrade the &quot;Apothicon Servant&quot; in the &quot;Shadows Of Evil&quot; map.',
+'In "Call Of Duty: Zombies", you can upgrade the "Apothicon Servant" in the "Shadows Of Evil" map.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4683,7 +4683,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'When was the &quot;Siege of Leningrad&quot; lifted during World War II?',
+'When was the "Siege of Leningrad" lifted during World War II?',
 'January 1944', 'January 1944;September 1943;November 1943;March 1944'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4739,7 +4739,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of the following rings from the DC Comics&#039; &quot;Lantern Corps&quot; are classified as Parasitic?',
+'Which of the following rings from the DC Comics'' "Lantern Corps" are classified as Parasitic?',
 'Indigo (Compassion)', 'Indigo (Compassion);Green (Willpower);White (Life);Yellow (Fear)'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4755,7 +4755,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What vault in the video game &quot;Fallout 3&quot; is the home of multiple clones named Gary?',
+'What vault in the video game "Fallout 3" is the home of multiple clones named Gary?',
 'Vault 108', 'Vault 108;Vault 101;Vault 87;Vault 21'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4771,7 +4771,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who is credited with having created the world&#039;s first video game Easter Egg?',
+'Who is credited with having created the world''s first video game Easter Egg?',
 'Warren Robinett', 'Warren Robinett;Julius Smith;Will Crowther;Don Woods'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4779,8 +4779,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which 90&#039;s comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?',
-'Wayne&#039;s World', 'Wayne&#039;s World;Bill &amp; Ted&#039;s Excellent Adventure;Dumb and Dumber;Austin Powers: International Man of Mystery'
+'Which 90''s comedy cult classic features cameos appearances from Meat Loaf, Alice Cooper and Chris Farley?',
+'Wayne''s World', 'Wayne''s World;Bill &amp; Ted''s Excellent Adventure;Dumb and Dumber;Austin Powers: International Man of Mystery'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4795,7 +4795,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The title of the 1969 film &quot;Krakatoa, East_of Java&quot; is incorrect, as Krakatoa is in fact west of Java.',
+'The title of the 1969 film "Krakatoa, East_of Java" is incorrect, as Krakatoa is in fact west of Java.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4811,7 +4811,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who had a 1976 hit with the song &#039;You Make Me Feel Like Dancing&#039;?',
+'Who had a 1976 hit with the song ''You Make Me Feel Like Dancing''?',
 'Leo Sayer', 'Leo Sayer;Elton John;Billy Joel;Andy Gibb'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4843,7 +4843,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which actor played the main character in the 1990 film &quot;Edward Scissorhands&quot;?',
+'Which actor played the main character in the 1990 film "Edward Scissorhands"?',
 'Johnny Depp', 'Johnny Depp; Clint Eastwood;Leonardo DiCaprio;Ben Stiller'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4852,7 +4852,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'What is the capital of Chile?',
-'Santiago', 'Santiago;Valpara&iacute;so;Copiap&oacute;;Antofagasta'
+'Santiago', 'Santiago;Valparaíso;Copiapó;Antofagasta'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4883,7 +4883,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the game &quot;Undertale&quot;, who was Mettaton&#039;s creator?',
+'In the game "Undertale", who was Mettaton''s creator?',
 'Alphys', 'Alphys;Undyne;Sans;Asgore'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4908,7 +4908,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'What is the name of one of the Neo-Aramaic languages spoken by the Jewish population from Northwestern Iraq?',
-'Lishana Deni', 'Lishana Deni;Hulaul&aacute;;Lishan Didan;Chaldean Neo-Aramaic'
+'Lishana Deni', 'Lishana Deni;Hulaulá;Lishan Didan;Chaldean Neo-Aramaic'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -4939,7 +4939,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of these languages was NOT included in the 2016 song &quot;Don&#039;t Mind&quot; by Kent Jones?',
+'Which of these languages was NOT included in the 2016 song "Don''t Mind" by Kent Jones?',
 'Portuguese', 'Portuguese;Japanese;French;Spanish'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4947,7 +4947,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The bikini is named after the &quot;Bikini Atoll&quot;, an island where the United States conducted tests on atomic bombs.',
+'The bikini is named after the "Bikini Atoll", an island where the United States conducted tests on atomic bombs.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4963,7 +4963,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'The Swedish word &quot;Grunka&quot; means what in English?',
+'The Swedish word "Grunka" means what in English?',
 'Thing', 'Thing;People;Place;Pineapple'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4971,7 +4971,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Scientists accidentally killed the once known world&#039;s oldest living creature, a mollusc, known to be aged as 507 years old.',
+'Scientists accidentally killed the once known world''s oldest living creature, a mollusc, known to be aged as 507 years old.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -4995,7 +4995,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Fallout 4, which type of power armor is first encountered in the early mission &quot;When Freedom Calls&quot; in a crashed Vertibird?',
+'In Fallout 4, which type of power armor is first encountered in the early mission "When Freedom Calls" in a crashed Vertibird?',
 'T-45', 'T-45;T-51;T-60;X-01'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5003,8 +5003,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was Napoleon Bonaparte&#039;s name before he changed it?',
-'Napoleone di Buonaparte', 'Napoleone di Buonaparte;Naapolion van Bonijpaart;Napole&atilde;o do Boaparte;Napoleona de Buenoparte'
+'What was Napoleon Bonaparte''s name before he changed it?',
+'Napoleone di Buonaparte', 'Napoleone di Buonaparte;Naapolion van Bonijpaart;Napoleao do Boaparte;Napoleona de Buenoparte'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -5027,7 +5027,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which country does the electronic music duo &quot;The Knife&quot; originate from?',
+'Which country does the electronic music duo "The Knife" originate from?',
 'Sweden', 'Sweden;Finland;Denmark;Norway'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5059,15 +5059,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which &quot;Fallout: New Vegas&quot; quest is NOT named after a real-life song?',
-'They Went That-a-Way', 'They Went That-a-Way;Come Fly With Me;Ain&#039;t That a Kick in the Head;Ring-a-Ding Ding'
+'Which "Fallout: New Vegas" quest is NOT named after a real-life song?',
+'They Went That-a-Way', 'They Went That-a-Way;Come Fly With Me;Ain''t That a Kick in the Head;Ring-a-Ding Ding'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Like his character in &quot;Parks and Recreation&quot;, Aziz Ansari was born in South Carolina.',
+'Like his character in "Parks and Recreation", Aziz Ansari was born in South Carolina.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5099,7 +5099,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who voices the character &quot;Vernon Cherry&quot; in &quot;Red Dead Redemption&quot;?',
+'Who voices the character "Vernon Cherry" in "Red Dead Redemption"?',
 'Casey Mongillo', 'Casey Mongillo;Tara Strong;Troy Baker;Rob Wiethoff'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5107,15 +5107,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the &quot;Ace Attorney&quot; series, what is the relationship between Apollo Justice and Trucy Wright?',
-'They&#039;re half-siblings', 'They&#039;re half-siblings;They&#039;re co-workers;They&#039;re friends;They&#039;re both attorneys'
+'In the "Ace Attorney" series, what is the relationship between Apollo Justice and Trucy Wright?',
+'They''re half-siblings', 'They''re half-siblings;They''re co-workers;They''re friends;They''re both attorneys'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Where is the &quot;Sonoran Desert&quot; located?',
+'Where is the "Sonoran Desert" located?',
 'North America', 'North America;South America;Asia;Africa'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5123,7 +5123,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of the following colors does the Zombie eyes glow in the &quot;Nuketown&quot; map in &quot;Call of Duty: Black Ops II&quot; Zombies mode?',
+'Which of the following colors does the Zombie eyes glow in the "Nuketown" map in "Call of Duty: Black Ops II" Zombies mode?',
 'Yellow and Blue', 'Yellow and Blue;Yellow and Red;Red and Blue;Blue and White'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5139,8 +5139,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the TV show &quot;Mad Men&quot;, what was Donald Draper&#039;s birthname?',
-'Richard &quot;Dick&quot; Whitman', 'Richard &quot;Dick&quot; Whitman;Donald Draper;John Ashbury;Michael &quot;Mikey&quot; Wilhelm'
+'In the TV show "Mad Men", what was Donald Draper''s birthname?',
+'Richard "Dick" Whitman', 'Richard "Dick" Whitman;Donald Draper;John Ashbury;Michael "Mikey" Wilhelm'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -5195,7 +5195,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of the following weapons in &quot;Counter-Strike: Global Offensive&quot; does not have a right-click function?',
+'Which of the following weapons in "Counter-Strike: Global Offensive" does not have a right-click function?',
 'XM1014', 'XM1014;SG553;R8 Revolver;USP-S'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5227,7 +5227,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which singer was featured in Swedish producer Avicii&#039;s song &quot;Wake Me Up&quot;?',
+'Which singer was featured in Swedish producer Avicii''s song "Wake Me Up"?',
 'Aloe Blacc', 'Aloe Blacc;John Legend;CeeLo Green;Pharrell Williams'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5235,7 +5235,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is &quot;dabbing&quot;?',
+'What is "dabbing"?',
 'A dance', 'A dance;A medical procedure;A sport;A language'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5251,7 +5251,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of the following Autobot names in Michael Bay&#039;s movies was NOT a name for a Transformer in the original 1980&#039;s cartoon?',
+'Which of the following Autobot names in Michael Bay''s movies was NOT a name for a Transformer in the original 1980''s cartoon?',
 'Mudflap', 'Mudflap;Skids;Sideswipe;Ratchet'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5276,14 +5276,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'Which video game was recalled for containing a hidden, playable South Park episode?',
-'Tiger Woods 99 PGA Tour', 'Tiger Woods 99 PGA Tour;Tony Hawk&#039;s Pro Skater 3;Sonic Adventure;Madden 99'
+'Tiger Woods 99 PGA Tour', 'Tiger Woods 99 PGA Tour;Tony Hawk''s Pro Skater 3;Sonic Adventure;Madden 99'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Excluding their instructor, how many members of Class VII are there in the game &quot;Legend of Heroes: Trails of Cold Steel&quot;?',
+'Excluding their instructor, how many members of Class VII are there in the game "Legend of Heroes: Trails of Cold Steel"?',
 '9', '9;6;10;3'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5300,14 +5300,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'The F1 season of 1994 is remembered for what tragic event?',
-'Death of Ayrton Senna (San Marino)', 'Death of Ayrton Senna (San Marino);The Showdown (Australia);Verstappen on Fire (Germany);Schumacher&#039;s Ban (Britain)'
+'Death of Ayrton Senna (San Marino)', 'Death of Ayrton Senna (San Marino);The Showdown (Australia);Verstappen on Fire (Germany);Schumacher''s Ban (Britain)'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'HARD',
-'When was the first &quot;Half-Life&quot; released?',
+'When was the first "Half-Life" released?',
 '1998', '1998;2004;1999;1997'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5339,7 +5339,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of these African countries list &quot;Spanish&quot; as an official language?',
+'Which of these African countries list "Spanish" as an official language?',
 'Equatorial Guinea', 'Equatorial Guinea;Guinea;Cameroon;Angola'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5363,7 +5363,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The default playermodel of Garry&#039;s Mod is this Half Life 2 character.',
+'The default playermodel of Garry''s Mod is this Half Life 2 character.',
 'Isaac Kleiner', 'Isaac Kleiner;G-Man;Alyx Vance;Gordon Freeman'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5395,7 +5395,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the 2012 animated film &quot;Wolf Children&quot;, what are the names of the wolf children?',
+'In the 2012 animated film "Wolf Children", what are the names of the wolf children?',
 'Ame &amp; Yuki', 'Ame &amp; Yuki;Hana &amp; Yuki;Ame &amp; Hana;Chuck &amp; Anna'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5403,7 +5403,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The &quot;Trail of Tears&quot; was a result of which United States President&#039;s Indian Removal Policy?',
+'The "Trail of Tears" was a result of which United States President''s Indian Removal Policy?',
 'Andrew Jackson', 'Andrew Jackson;Harry S. Truman;Martin Van Buren;John Quincy Adams'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5411,7 +5411,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the real name of the Scout in &quot;Team Fortress 2&quot;?',
+'What is the real name of the Scout in "Team Fortress 2"?',
 'Jeremy', 'Jeremy;Lance;Walter;John'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5435,7 +5435,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who voices the character &quot;Vernon Cherry&quot; in &quot;Red Dead Redemption&quot;?',
+'Who voices the character "Vernon Cherry" in "Red Dead Redemption"?',
 'Casey Mongillo', 'Casey Mongillo;Tara Strong;Troy Baker;Rob Wiethoff'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5451,7 +5451,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who created the indie adventure game &quot;Night in the Woods&quot;?',
+'Who created the indie adventure game "Night in the Woods"?',
 'Alec Holowka', 'Alec Holowka;Ron Gilbert;Tim Schafer; Tommy Refenes'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5467,7 +5467,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which &quot;Call Of Duty: Zombies&quot; map introduced the &quot;Staffs Of The Ancients&quot;?',
+'Which "Call Of Duty: Zombies" map introduced the "Staffs Of The Ancients"?',
 'Origins', 'Origins;Shangri-La;Revelations;Nuketown'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5475,7 +5475,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, where is &quot;Stamin-Up&quot; located?',
+'In the "Call Of Duty: Zombies" map "Origins", where is "Stamin-Up" located?',
 'Generator 5', 'Generator 5;Generator 3;Generator 4;Excavation Site'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5491,7 +5491,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Bj&ouml;rk&#039;s &quot;Unison&quot; contains a sample of which Oval song?',
+'Bj&ouml;rk''s "Unison" contains a sample of which Oval song?',
 'Aero Deck', 'Aero Deck;Textuell;Panorama;Do While'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5515,7 +5515,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Puella Magi Madoka Magica&quot;, what is the first name of Madoka&#039;s younger brother?',
+'In "Puella Magi Madoka Magica", what is the first name of Madoka''s younger brother?',
 'Tatsuya', 'Tatsuya;Montoya;Tomohisa;Minato'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5547,7 +5547,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'The singer Billie Holiday was also known as &quot;Lady Day&quot;.',
+'The singer Billie Holiday was also known as "Lady Day".',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5579,7 +5579,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was Humphrey Bogart&#039;s middle name?',
+'What was Humphrey Bogart''s middle name?',
 'DeForest', 'DeForest;DeWinter;Steven;Bryce'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5587,7 +5587,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'The term &quot;GTO&quot; was originated by Ferrari?',
+'The term "GTO" was originated by Ferrari?',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5595,7 +5595,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What was Britney Spears&#039; debut single?',
+'What was Britney Spears'' debut single?',
 '...Baby One More Time', '...Baby One More Time;Oops!... I Did It Again;(You Drive Me) Crazy;Toxic'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5619,7 +5619,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'&quot;Some people call me the space cowboy&quot; is the first line from what song?',
+'"Some people call me the space cowboy" is the first line from what song?',
 'The Joker', 'The Joker;Fandango;Take The Money and Run;Fly Like an Eagle'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5635,7 +5635,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In the Super Mario Bros. Series, what is Yoshi&#039;s scientific name?',
+'In the Super Mario Bros. Series, what is Yoshi''s scientific name?',
 'T. Yoshisaur Munchakoopas', 'T. Yoshisaur Munchakoopas;Yoshi;T. Yoshisotop Munchakoopas;Yossy'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5643,7 +5643,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?',
+'Who wrote the 1967 horror novel "Rosemary''s Baby"?',
 'Ira Levin', 'Ira Levin;Stephen King;Robert Bloch;Mary Shelley'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5659,7 +5659,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who directed the 1973 film &quot;American Graffiti&quot;?',
+'Who directed the 1973 film "American Graffiti"?',
 'George Lucas', 'George Lucas;Ron Howard;Francis Ford Coppola;Steven Spielberg'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5667,7 +5667,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;',
+'This movie contains the quote, "I feel the need ... the need for speed!"',
 'Top Gun', 'Top Gun;Days of Thunder;The Color of Money;Cocktail'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5683,7 +5683,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the &quot;The Hobbit&quot;, who kills Smaug?',
+'In the "The Hobbit", who kills Smaug?',
 'Bard', 'Bard;Bilbo Baggins;Gandalf the Grey;Frodo'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5692,7 +5692,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'The following Spanish provinces are located in the northern area of Spain except:',
-'Murcia', 'Murcia;Asturias;Navarre;Le&oacute;n'
+'Murcia', 'Murcia;Asturias;Navarre;León'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -5715,7 +5715,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the original script of &quot;The Matrix&quot;, the machines used humans as additional computing power instead of batteries.',
+'In the original script of "The Matrix", the machines used humans as additional computing power instead of batteries.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5755,7 +5755,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Disney&#039;s Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?',
+'Disney''s Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?',
 'Harry', 'Harry;Gus;Phineas;Ezra'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5771,7 +5771,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the 2015 RPG &quot;Undertale&quot;, which character do you first encounter after falling down into the underground?',
+'In the 2015 RPG "Undertale", which character do you first encounter after falling down into the underground?',
 'Flowey', 'Flowey;Toriel;Sans;Papyrus'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5787,15 +5787,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Dee from &quot;It&#039;s Always Sunny in Philadelphia&quot; has dated all of the following guys EXCEPT',
-'Matthew &quot;Rickety Cricket&quot; Mara', 'Matthew &quot;Rickety Cricket&quot; Mara;Colin the Thief;Ben the Soldier;Kevin Gallagher aka Lil&#039; Kevin'
+'Dee from "It''s Always Sunny in Philadelphia" has dated all of the following guys EXCEPT',
+'Matthew "Rickety Cricket" Mara', 'Matthew "Rickety Cricket" Mara;Colin the Thief;Ben the Soldier;Kevin Gallagher aka Lil'' Kevin'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'HARD',
-'In the 1964 film &quot;Zulu&quot;, what song does the British Army company sing before the final battle?',
+'In the 1964 film "Zulu", what song does the British Army company sing before the final battle?',
 'Men of Harlech', 'Men of Harlech;Scotland the Brave;Colonel Bogey March;The British Grenadiers'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5843,7 +5843,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which radio personality calls himself &quot;The King of All Media&quot;?',
+'Which radio personality calls himself "The King of All Media"?',
 'Howard Stern', 'Howard Stern;Rush Limbaugh;Pete Tong;Ryan Seacrest'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5851,7 +5851,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the name of the 4-armed Chaos Witch from the 2016 video game &quot;Battleborn&quot;?',
+'What is the name of the 4-armed Chaos Witch from the 2016 video game "Battleborn"?',
 'Orendi', 'Orendi;Orendoo;Oranda;Randy'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5867,7 +5867,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is Meg&#039;s full name in &quot;Family Guy&quot;?',
+'What is Meg''s full name in "Family Guy"?',
 'Megatron Griffin', 'Megatron Griffin;Who-Cares Griffin;Neil Griffin;Megan Griffin'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5875,16 +5875,16 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Earthbound&quot;, how does one enter &quot;Master Belch&#039;s&quot; factory?',
-'Wait 3 Minutes', 'Wait 3 Minutes;Enter the password &quot;Fly Honey&quot;;Enter the password &quot;Master Belch Rules&quot;;Enter the password &quot;Mr Saturn Drools&quot;'
+'In "Earthbound", how does one enter "Master Belch''s" factory?',
+'Wait 3 Minutes', 'Wait 3 Minutes;Enter the password "Fly Honey";Enter the password "Master Belch Rules";Enter the password "Mr Saturn Drools"'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Toby Fox&#039;s &quot;Megalovania&quot; was first used where?',
-'Radiation&#039;s Earthbound Halloween Hack', 'Radiation&#039;s Earthbound Halloween Hack;Homestuck: [S] Wake;Undertale;Mother: Cognitive Dissonance'
+'Toby Fox''s "Megalovania" was first used where?',
+'Radiation''s Earthbound Halloween Hack', 'Radiation''s Earthbound Halloween Hack;Homestuck: [S] Wake;Undertale;Mother: Cognitive Dissonance'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -5899,7 +5899,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of the creature that the main character befriends in &quot;The Last Guardian&quot;?',
+'What is the name of the creature that the main character befriends in "The Last Guardian"?',
 'Trico', 'Trico;Nico;Wolf;Andazi'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5907,7 +5907,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in &quot;The Railway Series&quot;?',
+'What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in "The Railway Series"?',
 'LB&amp;SCR A1X', 'LB&amp;SCR A1X;LB&amp;SCR E2;LB&amp;SCR J1;LB&amp;SCR D1'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5915,7 +5915,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of these is not a wonder weapon in &quot;Call Of Duty: Zombies&quot;?',
+'Which of these is not a wonder weapon in "Call Of Duty: Zombies"?',
 'R115 Resonator', 'R115 Resonator;GKZ-45 Mk3;Ray Gun;Scavenger'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5939,7 +5939,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which WWF wrestler had the nickname &quot;The Ayatollah of Rock &#039;N&#039; Rolla&quot;?',
+'Which WWF wrestler had the nickname "The Ayatollah of Rock ''N'' Rolla"?',
 'Chris Jericho', 'Chris Jericho;Marty Jannetty;Scott Hall;Shawn Michaels'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5947,7 +5947,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of the following games was NOT included in Valve&#039;s Orange Box?',
+'Which of the following games was NOT included in Valve''s Orange Box?',
 'Counter-Strike', 'Counter-Strike;Portal;Half-Life 2: Episode Two;Team Fortress 2'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5955,7 +5955,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The scrapped Sonic the Hedgehog 2 level &quot;Hidden Palace Zone&quot; was later reused in the iOS port of the game. ',
+'The scrapped Sonic the Hedgehog 2 level "Hidden Palace Zone" was later reused in the iOS port of the game. ',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5979,7 +5979,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the name of Jonny&#039;s pet dog in The Adventures of Jonny Quest?',
+'What was the name of Jonny''s pet dog in The Adventures of Jonny Quest?',
 'Bandit', 'Bandit;Lucky;Rocky;Max'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -5995,7 +5995,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The 1985 Toyota Corolla &quot;AE86&quot; was the hero car for what anime? ',
+'The 1985 Toyota Corolla "AE86" was the hero car for what anime? ',
 'Initial D', 'Initial D;Wangan Midnight;Ghost MF;Ex Driver'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6003,7 +6003,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The Cold War ended with Joseph Stalin&#039;s death.',
+'The Cold War ended with Joseph Stalin''s death.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6011,7 +6011,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who wrote the 1967 horror novel &quot;Rosemary&#039;s Baby&quot;?',
+'Who wrote the 1967 horror novel "Rosemary''s Baby"?',
 'Ira Levin', 'Ira Levin;Stephen King;Robert Bloch;Mary Shelley'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6035,7 +6035,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the original Doctor Who series (1963), fourth doctor Tom Baker&#039;s scarf was how long?',
+'In the original Doctor Who series (1963), fourth doctor Tom Baker''s scarf was how long?',
 '7 Meters', '7 Meters;10 Meters;2 Meters;5 Meters'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6051,7 +6051,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the world&#039;s first video game?',
+'What was the world''s first video game?',
 'Tennis for Two', 'Tennis for Two;Spacewar!;Pong;Space Travel'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6067,7 +6067,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'The animated film &quot;Spirited Away&quot; won the Academy Award for Best Animated Feature at the 75th Academy Awards in 2003.',
+'The animated film "Spirited Away" won the Academy Award for Best Animated Feature at the 75th Academy Awards in 2003.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6075,7 +6075,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'On which day did the attempted coup d&#039;etat of 1991 in the Soviet Union begin?',
+'On which day did the attempted coup d''etat of 1991 in the Soviet Union begin?',
 'August 19', 'August 19;August 21;December 26;December 24'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6115,7 +6115,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the &quot;Worms&quot; series of video games, which of these weapons is affected by wind?',
+'In the "Worms" series of video games, which of these weapons is affected by wind?',
 'Bazooka', 'Bazooka;Grenade;Air Strike;Mortar'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6139,7 +6139,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Bill Cipher in the show &quot;Gravity Falls&quot; is the good guy.',
+'Bill Cipher in the show "Gravity Falls" is the good guy.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6147,15 +6147,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What is the English title of the vaporwave track &quot;リサフランク420 / 現代のコンピュー&quot; by Macintosh Plus (Vektroid)?',
-'Lisa Frank 420 / Modern Computing', 'Lisa Frank 420 / Modern Computing;Smoke Weed 420 / Everyday;Make Your Move 420 / My Mind;It&#039;s All In Your Head 420 / Understand'
+'What is the English title of the vaporwave track "リサフランク420 / 現代のコンピュー" by Macintosh Plus (Vektroid)?',
+'Lisa Frank 420 / Modern Computing', 'Lisa Frank 420 / Modern Computing;Smoke Weed 420 / Everyday;Make Your Move 420 / My Mind;It''s All In Your Head 420 / Understand'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'EASY',
-'In the show Stranger Things, what is Eleven&#039;s favorite breakfast food?',
+'In the show Stranger Things, what is Eleven''s favorite breakfast food?',
 'Eggo Waffles', 'Eggo Waffles;Toast;Captain Crunch;Bacon and Eggs'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6195,7 +6195,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the TV series Red Dwarf, Kryten&#039;s full name is Kryten 2X4B-523P.',
+'In the TV series Red Dwarf, Kryten''s full name is Kryten 2X4B-523P.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6211,7 +6211,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which Pokemon generation did the fan-named &quot;Masuda Method&quot; first appear in? ',
+'Which Pokemon generation did the fan-named "Masuda Method" first appear in? ',
 'Diamond/Pearl', 'Diamond/Pearl;Ruby/Sapphire;Black/White;X/Y'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6219,7 +6219,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who wrote the Batman comic series &quot;The Killing Joke&quot;?',
+'Who wrote the Batman comic series "The Killing Joke"?',
 'Alan Moore', 'Alan Moore;Bill Finger;Frank Miller;Jerry Siegel'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6227,7 +6227,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which Disney character sings the song &quot;A Dream is a Wish Your Heart Makes&quot;?',
+'Which Disney character sings the song "A Dream is a Wish Your Heart Makes"?',
 'Cinderella', 'Cinderella;Belle;Snow White;Pocahontas'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6283,7 +6283,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of the following characters from the game &quot;Overwatch&quot; was revealed to be homosexual in December of 2016?',
+'Which of the following characters from the game "Overwatch" was revealed to be homosexual in December of 2016?',
 'Tracer', 'Tracer;Widowmaker;Sombra;Symmetra'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6299,7 +6299,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which country was Eliza &quot;Ash&quot; Cohen from &quot;Tom Clancy&#039;s Rainbow Six Siege&quot; born in?',
+'Which country was Eliza "Ash" Cohen from "Tom Clancy''s Rainbow Six Siege" born in?',
 'Israel', 'Israel;United States of America;Mexico;Canada'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6315,7 +6315,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Virtual reality company Oculus VR lost which of it&#039;s co-founders in a freak car accident in 2013?',
+'Virtual reality company Oculus VR lost which of it''s co-founders in a freak car accident in 2013?',
 'Andrew Scott Reisse', 'Andrew Scott Reisse;Nate Mitchell;Jack McCauley;Palmer Luckey'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6323,7 +6323,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of the following actors portrayed the Ninth Doctor in the British television show &quot;Doctor Who&quot;?',
+'Which of the following actors portrayed the Ninth Doctor in the British television show "Doctor Who"?',
 'Christopher Eccleston', 'Christopher Eccleston;David Tennant;Matt Smith;Tom Baker'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6339,7 +6339,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is Lilo&#039;s last name from Lilo and Stitch?',
+'What is Lilo''s last name from Lilo and Stitch?',
 'Pelekai', 'Pelekai;Anoaʻi;Kealoha;Kuʻulei'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6371,7 +6371,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Who was the winner of &quot;Big Brother&quot; Season 10?',
+'Who was the winner of "Big Brother" Season 10?',
 'Dan Gheesling', 'Dan Gheesling;Bryce Kranyik;Ryan Sutfin;Chris Mundorf'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6395,7 +6395,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;PUBATTLEGROUNDS&quot; what is the name of the Military Base island?',
+'In "PUBATTLEGROUNDS" what is the name of the Military Base island?',
 'Sosnovka', 'Sosnovka;Novorepnoye;Mylta;Yasnaya'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6435,7 +6435,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who is the writer of the game &quot;Half-Life&quot;?',
+'Who is the writer of the game "Half-Life"?',
 'Marc Laidlaw', 'Marc Laidlaw;Gabe Newell;Robin Walker;Chet Faliszek'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6483,7 +6483,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the game &quot;Racko&quot; you may pick up ANY card from the discard pile.',
+'In the game "Racko" you may pick up ANY card from the discard pile.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6499,7 +6499,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which Toronto landmark was featured on the cover art of Canadian rapper Drake&#039;s 2016 album &quot;Views&quot;?',
+'Which Toronto landmark was featured on the cover art of Canadian rapper Drake''s 2016 album "Views"?',
 'CN Tower', 'CN Tower;Allan Gardens;Union Station;Prince of Wales Theatre'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6523,7 +6523,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In &quot;Super Mario 3D World&quot;, the Double Cherry power-up originated from a developer accidentally making two characters controllable.',
+'In "Super Mario 3D World", the Double Cherry power-up originated from a developer accidentally making two characters controllable.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6531,7 +6531,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Half-Life 2, if you play the zombies&#039; speech in reverse, they actually speak coherent English.',
+'In Half-Life 2, if you play the zombies'' speech in reverse, they actually speak coherent English.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6587,7 +6587,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In &quot;The Melancholy of Haruhi Suzumiya&quot; series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.',
+'In "The Melancholy of Haruhi Suzumiya" series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.',
 'God', 'God;Alien;Time Traveler;Esper'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6603,7 +6603,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'On what medium was &quot;Clannad&quot; first created?',
+'On what medium was "Clannad" first created?',
 'Visual novel', 'Visual novel;Anime;Manga;Light novel'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6619,7 +6619,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is Meg&#039;s full name in &quot;Family Guy&quot;?',
+'What is Meg''s full name in "Family Guy"?',
 'Megatron Griffin', 'Megatron Griffin;Who-Cares Griffin;Neil Griffin;Megan Griffin'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6635,7 +6635,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'A &#039;Millinillion&#039; is a real number.',
+'A ''Millinillion'' is a real number.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6651,7 +6651,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the name of Sherlock Holmes&#039;s brother?',
+'What is the name of Sherlock Holmes''s brother?',
 'Mycroft Holmes', 'Mycroft Holmes;Mederi Holmes;Martin Holmes;Herbie Hancock Holmes'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6667,7 +6667,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in &quot;The Railway Series&quot;?',
+'What kind of train was Stepney, a train on the Bluebell Railway notable for his appearance in "The Railway Series"?',
 'LB&amp;SCR A1X', 'LB&amp;SCR A1X;LB&amp;SCR E2;LB&amp;SCR J1;LB&amp;SCR D1'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6683,7 +6683,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the first &quot;Call Of Duty: Zombies&quot; map to be directed by Jason Blundell?',
+'What was the first "Call Of Duty: Zombies" map to be directed by Jason Blundell?',
 'Mob Of The Dead', 'Mob Of The Dead;Buried;Origins;Moon'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6691,7 +6691,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the &quot;To Love-Ru&quot; series, Golden Darkness is sent to kill Lala Deviluke.',
+'In the "To Love-Ru" series, Golden Darkness is sent to kill Lala Deviluke.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6699,7 +6699,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'When was the People&#039;s Republic of China founded?',
+'When was the People''s Republic of China founded?',
 'October 1, 1949', 'October 1, 1949;April 3, 1947;May 7, 1945;December 6, 1950'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6708,14 +6708,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'MEDIUM',
 'Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?',
-'Dave Navarro', 'Dave Navarro;Tom Morello ;Billy Corgan;Ed O&#039;Brien'
+'Dave Navarro', 'Dave Navarro;Tom Morello ;Billy Corgan;Ed O''Brien'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'What was the original name of the search engine &quot;Google&quot;?',
+'What was the original name of the search engine "Google"?',
 'BackRub', 'BackRub;CatMassage;SearchPro;Netscape Navigator'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6731,7 +6731,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Team Fortress 2&quot;, what is the fastest taunt kill that can be pulled off?',
+'In "Team Fortress 2", what is the fastest taunt kill that can be pulled off?',
 'Showdown', 'Showdown;Hadouken;Organ Grinder;Skewer'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6747,7 +6747,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What&#039;s the second book in George R. R. Martin&#039;s &#039;A Song of Ice and Fire&#039; series?',
+'What''s the second book in George R. R. Martin''s ''A Song of Ice and Fire'' series?',
 'A Clash of Kings', 'A Clash of Kings;A Dance with Dragons;A Storm of Swords;A Feast for Crows'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6771,7 +6771,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the hardest possible difficulty in &quot;Deus Ex: Mankind Divided&quot;?',
+'What is the hardest possible difficulty in "Deus Ex: Mankind Divided"?',
 'I Never Asked For This', 'I Never Asked For This;Nightmare;Extreme;Guru'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6780,14 +6780,14 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'What song originally performed by The Bee Gees in 1978 had a cover version by Steps 20 years later?',
-'Tragedy', 'Tragedy;Night Fever;Stayin&#039; Alive;You Should Be Dancing'
+'Tragedy', 'Tragedy;Night Fever;Stayin'' Alive;You Should Be Dancing'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'Which star actor was in &quot;Top Gun&quot;, &quot;Jerry Maguire&quot; and &quot;Born on the Fourth of July&quot;?',
+'Which star actor was in "Top Gun", "Jerry Maguire" and "Born on the Fourth of July"?',
 'Tom Cruise', 'Tom Cruise;Kelly McGillis;John Travolta;George Clooney'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6803,7 +6803,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Who wrote and directed the animated movie &quot;Spirited Away&quot; (2001)?',
+'Who wrote and directed the animated movie "Spirited Away" (2001)?',
 'Hayao Miyazaki', 'Hayao Miyazaki;Isao Takahata;Mamoru Hosoda;Hidetaka Miyazaki'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6811,7 +6811,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'&quot;Some people call me the space cowboy&quot; is the first line from what song?',
+'"Some people call me the space cowboy" is the first line from what song?',
 'The Joker', 'The Joker;Fandango;Take The Money and Run;Fly Like an Eagle'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6843,7 +6843,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Video streaming website YouTube was purchased in it&#039;s entirety by Facebook for US$1.65 billion in stock.',
+'Video streaming website YouTube was purchased in it''s entirety by Facebook for US$1.65 billion in stock.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6851,7 +6851,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which anime heavily features music from the genre &quot;Eurobeat&quot;?',
+'Which anime heavily features music from the genre "Eurobeat"?',
 'Initial D', 'Initial D;Wangan Midnight;Kino no Tabi;Cowboy Bebop'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6875,7 +6875,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of these features was added in the 1994 game &quot;Heretic&quot; that the original &quot;DOOM&quot; could not add due to limitations?',
+'Which of these features was added in the 1994 game "Heretic" that the original "DOOM" could not add due to limitations?',
 'Looking up and down', 'Looking up and down;Increased room sizes;Unlimited weapons;Highly-detailed textures'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6883,7 +6883,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'There are 6 legendary cards in &quot;Clash Royale&quot;.',
+'There are 6 legendary cards in "Clash Royale".',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6899,7 +6899,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In &quot;Inuyasha&quot;, what are the heros are looking to collect?',
+'In "Inuyasha", what are the heros are looking to collect?',
 'Jewel Shards', 'Jewel Shards;Dragon Balls;Rave Stones;Sacred Stones'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6907,7 +6907,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the German word for &quot;spoon&quot;?',
+'What is the German word for "spoon"?',
 'L&ouml;ffel', 'L&ouml;ffel;Gabel;Messer;Essst&auml;bchen'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6915,15 +6915,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the romanized Russian word for &quot;winter&quot;?',
-'Zima', 'Zima;Leto;Vesna;Osen&#039;'
+'What is the romanized Russian word for "winter"?',
+'Zima', 'Zima;Leto;Vesna;Osen'''
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'HARD',
-'Disney&#039;s Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?',
+'Disney''s Haunted Mansion is home to a trio of Hitchhiking Ghosts. Which of these is NOT one of them?',
 'Harry', 'Harry;Gus;Phineas;Ezra'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6931,7 +6931,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who is the founder of Team Fortress 2&#039;s fictional company &quot;Mann Co&quot;?',
+'Who is the founder of Team Fortress 2''s fictional company "Mann Co"?',
 'Zepheniah Mann', 'Zepheniah Mann;Cave Johnson;Wallace Breem;Saxton Hale'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6939,7 +6939,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Who voice acted the character Hiccup in the movie &quot;How to Train Your Dragon&quot;?',
+'Who voice acted the character Hiccup in the movie "How to Train Your Dragon"?',
 'Jay Baruchel', 'Jay Baruchel;Jack Brauchel;John Powell;Gerard Butler'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6987,7 +6987,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is Grumpy Cat&#039;s real name?',
+'What is Grumpy Cat''s real name?',
 'Tardar Sauce', 'Tardar Sauce;Sauce;Minnie;Broccoli'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -6995,7 +6995,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In the game Dead by Daylight, the killer Michael Myers is refered to as &quot;The Shape&quot;.',
+'In the game Dead by Daylight, the killer Michael Myers is refered to as "The Shape".',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7003,7 +7003,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the periodic table, Potassium&#039;s symbol is the letter K.',
+'In the periodic table, Potassium''s symbol is the letter K.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7012,7 +7012,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 'HARD',
 'What genetic disease is caused by having an extra Y chromosome (XYY)?',
-'Jacob&#039;s Syndrome', 'Jacob&#039;s Syndrome;Klinefelter&#039;s Syndrome;Turner&#039;s Syndrome;Down Syndrome'
+'Jacob''s Syndrome', 'Jacob''s Syndrome;Klinefelter''s Syndrome;Turner''s Syndrome;Down Syndrome'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -7027,7 +7027,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which show is known for the songs &quot;You are a Pirate&quot;, &quot;Cooking by the Book&quot; and &quot;We Are Number One&quot;?',
+'Which show is known for the songs "You are a Pirate", "Cooking by the Book" and "We Are Number One"?',
 'LazyTown', 'LazyTown;Sofia the First;DuckTales;Tom and Jerry'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7043,7 +7043,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What type of cheese, loved by Wallace and Gromit, had it&#039;s sale prices rise after their successful short films?',
+'What type of cheese, loved by Wallace and Gromit, had it''s sale prices rise after their successful short films?',
 'Wensleydale', 'Wensleydale;Cheddar;Moon Cheese;Edam'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7051,15 +7051,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'In &quot;Donkey Kong Country&quot;, why does Donkey Kong want to know the secret of the crystal coconut?',
-'He&#039;s the big kahuna.', 'He&#039;s the big kahuna.;To find out where all the bananas are.;Because Diddy Kong forced him.;He wants to punish brutes.'
+'In "Donkey Kong Country", why does Donkey Kong want to know the secret of the crystal coconut?',
+'He''s the big kahuna.', 'He''s the big kahuna.;To find out where all the bananas are.;Because Diddy Kong forced him.;He wants to punish brutes.'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'In the &quot;Sailor Moon&quot; series, what is Sailor Jupiter&#039;s civilian name?',
+'In the "Sailor Moon" series, what is Sailor Jupiter''s civilian name?',
 'Makoto Kino', 'Makoto Kino;Minako Aino;Usagi Tsukino;Rei Hino'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7075,7 +7075,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who is the colossal titan in &quot;Attack On Titan&quot;?',
+'Who is the colossal titan in "Attack On Titan"?',
 'Bertolt Hoover', 'Bertolt Hoover;Reiner;Eren;Sasha'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7083,7 +7083,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who played the Waitress in the Spam sketch of &quot;Monty Python&#039;s Flying Circus&quot;?',
+'Who played the Waitress in the Spam sketch of "Monty Python''s Flying Circus"?',
 'Terry Jones', 'Terry Jones;Eric Idle;Graham Chapman;John Cleese'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7091,7 +7091,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Highschool DxD&quot;, what is the name of the item some humans are born with?',
+'In "Highschool DxD", what is the name of the item some humans are born with?',
 'Sacred Gear', 'Sacred Gear;Imperial Arm;Hallowed Relic;Blessed Artifact'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7099,15 +7099,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of the following songs did Elton John perform following Princess Diane&#039;s passing?',
-'Candles in the Wind', 'Candles in the Wind;I Guess That&#039;s Why They Call It The Blues;Your Song;Island Girl'
+'Which of the following songs did Elton John perform following Princess Diane''s passing?',
+'Candles in the Wind', 'Candles in the Wind;I Guess That''s Why They Call It The Blues;Your Song;Island Girl'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'In &quot;Little Witch Academia&quot;, what is Shiny Chariot&#039;s alias at Luna Nova Academy?',
+'In "Little Witch Academia", what is Shiny Chariot''s alias at Luna Nova Academy?',
 'Ursula Callistis', 'Ursula Callistis;Croix Meridies;Miranda Holbrook;Anne Finnelan'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7115,7 +7115,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the name of the first boss the player encounters in the 2017 game, &quot;Little Nightmares&quot;?',
+'What is the name of the first boss the player encounters in the 2017 game, "Little Nightmares"?',
 'The Janitor', 'The Janitor;The Warden;The Caretaker;The Overseer'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7155,7 +7155,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the name of the main protagonist in &quot;Xenoblade Chronicles&quot;?',
+'What is the name of the main protagonist in "Xenoblade Chronicles"?',
 'Shulk', 'Shulk;Reyn;Fiora;Dunban'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7163,7 +7163,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What Pok&eacute;mon&#039;s Base Stat Total does not change when it evolves?',
+'What Pok&émon''s Base Stat Total does not change when it evolves?',
 'Scyther', 'Scyther;Pikachu;Sneasel;Larvesta'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7171,7 +7171,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Donald Duck played the role of Bob Cratchit in Disney&#039;s 1983 adaptation of A Christmas Carol.',
+'Donald Duck played the role of Bob Cratchit in Disney''s 1983 adaptation of A Christmas Carol.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7179,7 +7179,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Night on Bald Mountain was one of the musical pieces featured in Disney&#039;s 1940&#039;s film Fantasia.',
+'Night on Bald Mountain was one of the musical pieces featured in Disney''s 1940''s film Fantasia.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7195,7 +7195,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the closest planet to our solar system&#039;s sun?',
+'What is the closest planet to our solar system''s sun?',
 'Mercury', 'Mercury;Mars;Jupiter;Earth'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7203,7 +7203,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which of the following did not feature in the cartoon &#039;Wacky Races&#039;?',
+'Which of the following did not feature in the cartoon ''Wacky Races''?',
 'The Dragon Wagon', 'The Dragon Wagon;The Bouldermobile;The Crimson Haybailer;The Compact Pussycat'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7211,7 +7211,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which company developed the video game &quot;Borderlands&quot;?',
+'Which company developed the video game "Borderlands"?',
 'Gearbox Software', 'Gearbox Software;2K Games;Activision;Rockstar Games'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7219,7 +7219,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The name of the main character of the video game &quot;The Legend of Zelda&quot;, is Zelda.',
+'The name of the main character of the video game "The Legend of Zelda", is Zelda.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7227,7 +7227,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which Elton John hit starts with the line &quot;When are you gonna come down&quot;?',
+'Which Elton John hit starts with the line "When are you gonna come down"?',
 'Goodbye Yellow Brick Road', 'Goodbye Yellow Brick Road;Rocket Man;Bennie and the Jets;Crocodile Rock'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7235,7 +7235,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which artist&rsquo;s studio was known as &#039;The Factory&#039;?',
+'Which artist&rsquo;s studio was known as ''The Factory''?',
 'Andy Warhol', 'Andy Warhol;Roy Lichtenstein;David Hockney;Peter Blake'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7243,7 +7243,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What was the nickname of the original model for Half-Life&#039;s protagonist Gordon Freeman?',
+'What was the nickname of the original model for Half-Life''s protagonist Gordon Freeman?',
 'Ivan the Space Biker', 'Ivan the Space Biker;Gordon the Space Biker;Ivan the Alien Biker;Gordon the Alien Biker'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7251,7 +7251,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the orange and white bot&#039;s name in &quot;Star Wars: The Force Awakens&quot;?',
+'What is the orange and white bot''s name in "Star Wars: The Force Awakens"?',
 'BB-8', 'BB-8;BB-3;AA-A;R2-D2'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7259,7 +7259,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'How many times do you fight Gilgamesh in &quot;Final Fantasy 5&quot;?',
+'How many times do you fight Gilgamesh in "Final Fantasy 5"?',
 '6', '6;4;5;3'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7275,8 +7275,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the game series &quot;The Legend of Zelda&quot;, what was the first 3D game?',
-'Ocarina of Time', 'Ocarina of Time;Majora&#039;s Mask;A Link to the Past;The Wind Waker'
+'In the game series "The Legend of Zelda", what was the first 3D game?',
+'Ocarina of Time', 'Ocarina of Time;Majora''s Mask;A Link to the Past;The Wind Waker'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -7315,7 +7315,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What company created and developed the game &quot;Overwatch&quot;?',
+'What company created and developed the game "Overwatch"?',
 'Blizzard Entertainment', 'Blizzard Entertainment;Valve;Hi-Rez Studios;Gearbox Software'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7323,7 +7323,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Deus Ex (2000) does not feature the World Trade Center because it was destroyed by terrorist attacks according to the game&#039;s plot.',
+'Deus Ex (2000) does not feature the World Trade Center because it was destroyed by terrorist attacks according to the game''s plot.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7363,7 +7363,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of these is NOT the name of a team leader in Pok&eacute;mon GO?',
+'Which of these is NOT the name of a team leader in Pok&émon GO?',
 'Leif', 'Leif;Blanche;Spark;Candela'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7379,7 +7379,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'In &quot;The Melancholy of Haruhi Suzumiya&quot; series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.',
+'In "The Melancholy of Haruhi Suzumiya" series, the SOS Brigade club leader is unknowingly treated as a(n) __ by her peers.',
 'God', 'God;Alien;Time Traveler;Esper'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7411,7 +7411,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Hitman: Blood Money, what is the name of the target in the mission &quot;Death of a Showman&quot;?',
+'In Hitman: Blood Money, what is the name of the target in the mission "Death of a Showman"?',
 'Joseph Clarence', 'Joseph Clarence;The Swing King;Maynard John;Manuel Delgado'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7427,7 +7427,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?',
+'In 2016, who won the Formula 1 World Constructor''s Championship for the third time in a row?',
 'Mercedes-AMG Petronas', 'Mercedes-AMG Petronas;Scuderia Ferrari;McLaren Honda;Red Bull Racing Renault'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7459,7 +7459,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'How much weight did Chris Pratt lose for his role as Star-Lord in &quot;Guardians of the Galaxy&quot;?',
+'How much weight did Chris Pratt lose for his role as Star-Lord in "Guardians of the Galaxy"?',
 '60 lbs', '60 lbs;30 lbs;50 lbs;70 lbs'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7467,7 +7467,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'This Canadian television sportscaster is known for his &quot;Hockey Night in Canada&quot; role, a commentary show during hockey games.',
+'This Canadian television sportscaster is known for his "Hockey Night in Canada" role, a commentary show during hockey games.',
 'Don Cherry', 'Don Cherry;Don McKellar;Don Taylor ;Donald Sutherland'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7475,8 +7475,8 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In the television show &quot;Lazy Town&quot;, who is the actor of Robbie Rotten?',
-'Stef&aacute;n Stef&aacute;nsson', 'Stef&aacute;n Stef&aacute;nsson;Adam Sandler;Magn&uacute;s Scheving;Stephen Carl'
+'In the television show "Lazy Town", who is the actor of Robbie Rotten?',
+'Stefán Stefánsson', 'Stefán Stefánsson;Adam Sandler;Magn&uacute;s Scheving;Stephen Carl'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
@@ -7491,7 +7491,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'What year was Min Yoongi from South Korea boy band &quot;BTS&quot; born in?',
+'What year was Min Yoongi from South Korea boy band "BTS" born in?',
 '1993', '1993;1992;1995;1994'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7499,7 +7499,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Call Of Duty: Zombies&quot;, what does the game traditionally reward you for completing a boss round?',
+'In "Call Of Duty: Zombies", what does the game traditionally reward you for completing a boss round?',
 'Max Ammo', 'Max Ammo;A Pack-A-Punched gun;Death Machine;Monkey Bombs'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7523,7 +7523,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of these cards from &quot;Magic: The Gathering&quot; has a flavor text that begins with &quot;Oi oi oi&quot;?',
+'Which of these cards from "Magic: The Gathering" has a flavor text that begins with "Oi oi oi"?',
 'Uthden Troll', 'Uthden Troll;Lotleth Troll;Albino Troll;Harvester Troll'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7563,7 +7563,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'The 2011 movie &quot;The Adventures of Tintin&quot; was directed by Steven Spielberg.',
+'The 2011 movie "The Adventures of Tintin" was directed by Steven Spielberg.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7595,7 +7595,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;JoJo&#039;s Bizzare Adventure: Stardust Crusaders&quot;, what is the last name of the protagonist Jotaro?',
+'In "JoJo''s Bizzare Adventure: Stardust Crusaders", what is the last name of the protagonist Jotaro?',
 'Kujo', 'Kujo;Cujoh;Joestar;Higashikata'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7627,7 +7627,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which &#039;Family Guy&#039; character got his own spin-off show in 2009?',
+'Which ''Family Guy'' character got his own spin-off show in 2009?',
 'Cleveland Brown', 'Cleveland Brown;Glenn Quagmire;Joe Swanson;The Greased-up Deaf Guy'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7635,7 +7635,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What was the name of the sea witch in the 1989 Disney film &quot;The Little Mermaid&quot;?',
+'What was the name of the sea witch in the 1989 Disney film "The Little Mermaid"?',
 'Ursula', 'Ursula;Madam Mim;Maleficent;Lady Tremaine'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7643,7 +7643,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who played Agent Fox Mulder in the TV sci-fi drama &quot;The X-Files&quot;?',
+'Who played Agent Fox Mulder in the TV sci-fi drama "The X-Files"?',
 'David Duchovny', 'David Duchovny;Gillian Anderson;Robert Patrick;Mitch Pileggi'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7651,7 +7651,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Saul Hudson (Slash) of the band Guns N&#039; Roses is known for playing what type of guitar?',
+'Saul Hudson (Slash) of the band Guns N'' Roses is known for playing what type of guitar?',
 'Les Paul Standard', 'Les Paul Standard;Fender Stratocaster;LsL Mongrel;Gretsch Falcon'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7675,7 +7675,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What country is the Hussarya supercar, made by the car manufacturer &quot;Arrinera&quot;, assembled in?',
+'What country is the Hussarya supercar, made by the car manufacturer "Arrinera", assembled in?',
 'Poland', 'Poland;China;Sweden;Italy'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7707,7 +7707,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'When was the first &quot;Half-Life&quot; released?',
+'When was the first "Half-Life" released?',
 '1998', '1998;2004;1999;1997'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7723,7 +7723,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What&#039;s the Team Fortress 2 Scout&#039;s city of origin?',
+'What''s the Team Fortress 2 Scout''s city of origin?',
 'Boston', 'Boston;Sydney;Detroit;New York'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7747,7 +7747,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Who is the leader of Team Mystic in Pok&eacute;mon Go?',
+'Who is the leader of Team Mystic in Pok&émon Go?',
 'Blanche', 'Blanche;Candela;Spark;Willow'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7787,7 +7787,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'On what medium was &quot;Clannad&quot; first created?',
+'On what medium was "Clannad" first created?',
 'Visual novel', 'Visual novel;Anime;Manga;Light novel'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7795,7 +7795,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What city did the monster attack in the film, &quot;Cloverfield&quot;?',
+'What city did the monster attack in the film, "Cloverfield"?',
 'New York, New York', 'New York, New York;Las Vegas, Nevada;Chicago, Illinois;Orlando, Florida'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7803,7 +7803,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'It&#039;s not possible to format a write-protected DVD-R Hard Disk.',
+'It''s not possible to format a write-protected DVD-R Hard Disk.',
 'True', 'True;False'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7811,7 +7811,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'What is the name of the main character in &quot;The Flash&quot; TV series?',
+'What is the name of the main character in "The Flash" TV series?',
 'Barry Allen', 'Barry Allen;Oliver Queen;Bart Allen;Bruce Wayne'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7819,7 +7819,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'When Donkey Kong died in the &quot;Donkey Kong Country&quot; episode &quot;It&#039;s a Wonderful Life&quot;, who was his guardian angel?',
+'When Donkey Kong died in the "Donkey Kong Country" episode "It''s a Wonderful Life", who was his guardian angel?',
 'Eddie the Mean Old Yeti', 'Eddie the Mean Old Yeti;Kiddy Kong;Diddy Kong;King K. Rool'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7835,7 +7835,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What year does Part 7 of &quot;JoJo&#039;s Bizarre Adventure&quot; take place in?',
+'What year does Part 7 of "JoJo''s Bizarre Adventure" take place in?',
 '1890', '1890;1888;1999;2003'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7843,15 +7843,15 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Who is a pioneer of &quot;Minimal Music&quot; in 1960s?',
-'Steve Reich', 'Steve Reich;Wolfgang Amadeus Mozart;Brian Eno;Sigur R&oacute;s'
+'Who is a pioneer of "Minimal Music" in 1960s?',
+'Steve Reich', 'Steve Reich;Wolfgang Amadeus Mozart;Brian Eno;Sigur Rós'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
     null,
 
 
 'MEDIUM',
-'What year did &quot;Bishoujo Senshi Sailor Moon&quot; air in Japan?',
+'What year did "Bishoujo Senshi Sailor Moon" air in Japan?',
 '1992', '1992;1989;1990;1994'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7867,7 +7867,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Psychology, which need appears highest in the &quot;Maslow&#039;s hierarchy of needs&quot; pyramid?',
+'In Psychology, which need appears highest in the "Maslow''s hierarchy of needs" pyramid?',
 'Esteem', 'Esteem;Love;Safety;Physiological'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7875,7 +7875,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'What is the make and model of the tour vehicles in &quot;Jurassic Park&quot;?',
+'What is the make and model of the tour vehicles in "Jurassic Park"?',
 '1992 Ford Explorer XLT', '1992 Ford Explorer XLT;1992 Toyota Land Cruiser;1992 Jeep Wrangler YJ Sahar;Mercedes M-Class'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7883,7 +7883,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'Which of these is not a character in the game, &quot;Lethal League&quot;?',
+'Which of these is not a character in the game, "Lethal League"?',
 'Rex', 'Rex;Switch;Candyman;Sonata'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7891,7 +7891,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'&quot;Make You Feel My Love&quot; was originally written and performed by which singer-songwriter?',
+'"Make You Feel My Love" was originally written and performed by which singer-songwriter?',
 'Bob Dylan', 'Bob Dylan;Elvis;Adele;Billy Joel'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7899,7 +7899,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'EASY',
-'Which character in the &quot;Animal Crossing&quot; series uses the phrase &quot;zip zoom&quot; when talking to the player?',
+'Which character in the "Animal Crossing" series uses the phrase "zip zoom" when talking to the player?',
 'Scoot', 'Scoot;Drake;Bill;Mallary'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7907,7 +7907,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of these cards from &quot;Magic: The Gathering&quot; has a flavor text that begins with &quot;Oi oi oi&quot;?',
+'Which of these cards from "Magic: The Gathering" has a flavor text that begins with "Oi oi oi"?',
 'Uthden Troll', 'Uthden Troll;Lotleth Troll;Albino Troll;Harvester Troll'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7923,7 +7923,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In Calvin and Hobbes, what is the name of the principal at Calvin&#039;s school?',
+'In Calvin and Hobbes, what is the name of the principal at Calvin''s school?',
 'Mr. Spittle', 'Mr. Spittle;Mr. Boreman;Mr. Spitling;Mr. Moe'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7939,7 +7939,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'HARD',
-'Which of the following games was NOT included in Valve&#039;s Orange Box?',
+'Which of the following games was NOT included in Valve''s Orange Box?',
 'Counter-Strike', 'Counter-Strike;Portal;Half-Life 2: Episode Two;Team Fortress 2'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(
@@ -7987,7 +7987,7 @@ insert into questions (id, difficulty, question, correct_answer, answers) values
 
 
 'MEDIUM',
-'In &quot;Avatar: The Last Airbender&quot; and &quot;The Legend of Korra&quot;, Lavabending is a specialized bending technique of Firebending.',
+'In "Avatar: The Last Airbender" and "The Legend of Korra", Lavabending is a specialized bending technique of Firebending.',
 'False', 'False;True'
 );
 insert into questions (id, difficulty, question, correct_answer, answers) values(

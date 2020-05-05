@@ -1,7 +1,6 @@
 package com.quizapp.quizapp.security;
 
 import com.quizapp.quizapp.entity.User;
-import com.quizapp.quizapp.respository.StatisticsRepository;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
